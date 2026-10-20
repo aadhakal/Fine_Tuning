@@ -1,0 +1,1139 @@
+text,claude_label,claude_reason,source
+"Hey, I'm nearly 80 years old. I haven't written a line of code in over 10 years. But I'm coding now, with the help of Claude & Gemini, and having a great time. Each block of Python or Applescript that they generate for me is a much better learning tool than a book - I'm going through the code line by line and researching everything. And I'm also learning how to deal with LLMs and their strengths & weaknesses. Correcting them from time to time when they screw up. Lots of fun.",experience,"coding again with Claude & Gemini, learning from generated code",hn:47282777
+"I've also been loving the speed Claude has enabled me to move at, and now agree that the coding part of SWE has become LLM-wrangling instead. I now see interacting with an LLM, to build all parts of software, as the new ""frontend"".
+
+Following this idea, what do people think ""backend"" work will involve? Building and tweaking models, and the infra around them? Obviously everyone will shift more into architecture and strategy, but in terms of hands-on technical work I'm interested in where people see this going.",question,the point is asking what 'backend' work will become,hn:47282777
+"I know how you feel. I'm 54 and resisted this stuff until about a month ago when I decided if I want any hope of staying employed as a coder I'll need to get on board.
+
+Using codex has allowed me to add bring up my current project so much more quickly, and I'm enjoying saying what I want, asking for suggestions on how things could be improved, and having what is essentially a junior dev who knows way more about web tech than I ever want to, to put it all together. Every few days I go through the codebase and templates to look for redundancies, opportities for cleanup, check on db queries, etc.
+
+Early days for me but it seems like a great way to build a system.
+
+Of course the problem is you need to be a senior dev to keep things in check and know what you want and mostly how you want it done, and look for problems.
+
+I've written enough code over the last 40 years that I don't feel the need to type every character.",experience,"using Codex on current project, reviews codebase every few days",hn:47282777
+"COM !! I remember that was the biggest idea that I learned and thought if I can get it right, I will be the best programmer ever. And to learn, I bought my most expensive book by Dale Rogerson if I remember the author's name correctly. But it was a different time and soon everyone was talking about Java. Just nostalgia and I remember my past.",skip,"nostalgia about COM, not about AI tools",hn:47282777
+"Another +1 from me at 62 years. My problem is this has led to me feeling like I am tech lead for a team of a dozen excellent developers, but I have no task for them!",experience,feels like tech lead with no tasks for the agents,hn:47282777
+"I spent the last 2 days primarily using Claude instead of coding things myself at work. I felt the exact opposite way. It was so unfulfilling. I’d equate it to the feeling of getting an A on a test, knowing I cheated. I didn’t accomplish anything. I didn’t learn anything. I got the end result with none of the satisfaction and learned nothing in the process.
+
+I’m probably going to go back and redo everything with my own code.",experience,two days using Claude at work felt unfulfilling,hn:47282777
+"I'm much younger, just 42, but due to other medical problems, my attention span was being reduced. I've been programming profesionally for about 25 years, but the last years I was putting myself more into other roles, because being able to focus on code for a few hours uninterrupted is a luxury that I don't have anymore. I was honestly thinking I'll have to retire early. That was until I've tried Claude Code last year. It feels like a superpower. I can guide it, I can review it, I don't need it for thinking, I need it for writing code and under very strict guidance, it does that well. I feel like this extends the years I can do software well into to the future. In a way, I welcome masses thinking AI can produce software on it's own, it gives me hopes for more earning in the future for me.",experience,Claude Code let them keep programming despite attention problems,hn:47282777
+"As a principal engineer I feel completely let down. I've spent decades building up and accumulating expert knowledge and now that has been massively devalued. Any idiot can now prompt their way to the same software. I feel depressed and very unmotivated and expect to retire soon. Talk about a rug pull!
+
+My experience is that people who weren't very good at writing software are the ones now ""most excited"" to ""create"" with a LLM.",claim,feelings and claims about devaluation; no described use (hard case),hn:47282777
+"A real-life scene that made me chuckle last weekend…
+
+“Oh shit, Hey Babe did you close my laptop?”
+
+My not-very-technical friend as we returned home from a Sunday afternoon trip to the park with the kids to find his Claude Code session had been thwarted.",experience,witnessed friend's Claude Code session interrupted (hard case: someone else's use),hn:47282777
+"I just had what you might probably describe as the opposite experience. I was sat at a very important all hands meeting by our senior tech leader with about 100 people or so .who was mandating an AI goal for every employee on workday, he basically says that “if we all do not learn to adapt to AI, we will all get left behind” , and he had presented how to utilise spec driven development. He opened up the room for Q&A at the end of the meeting. A lot of them had technical questions about the agentic framework itself but I had a philosophical one. I I felt uncomfortable asking him the question in the open, so I sent him a private note .
+
+The note read something like as follows : I don’t exactly agree with the framing that we will all get left behind if we all don’t learn to adapt to AI. More accurately, I see it this way. While the company definitely stands to gain from all the hyper increase in productivity by the use of said AI tools, I stand to pay a personal price and that personal price is this - I’m may very slowly stop exercising my critical thinking muscles because I am accustomed passing that to AI for everything and this will render me less employable, it is this personal price that I feel reluctant to pay. There has always been a delicate balance between an employer and employee. We learn new technologies on the job and we’re more employable for transferring that to other companies. This equation is now unbalanced. The company trapped more value, but there is skill erosion on my side . For instance, our team actually has to perform a Cassandra DB migration this year . Usually, I’d have to take a small textbook and read about the internals of CassandraDB, and maybe learn a guide on how to write Cassandra queries. What do I put in my resume now? That I vibe coded Cassandra migration? How employable is that? And I’m not sure if others felt the same way. But I definitely felt like the odd one out here for asking that question because everyone else in the meeting was on board with AI adoption.
+
+The leader did respond to me and he said that learning agentic AI actually will make me more employable. So there is a fundamental disagreement as to what constitutes skill. I think he just spoke past me. Oh well at least I tried.",claim,"argument about skill erosion; the story is a meeting, not tool use (hard case)",hn:47282777
+"I introduced my dad to claude code. He doesn’t even code, but now it’s a more welcoming and rewarding experience from the get-go. He’s happy, became more comfortable with linux.
+
+Occasionally I remote in to help fix something, but the coding agent really takes a load off my back, and he can start learning without knowing where the endpoints are.",experience,"introduced dad to Claude Code, remotes in to help",hn:47282777
+"As a business/product person it's pretty addictive (gotta watch the token spend!). This week with a few workmates we had an idea in a pub, on train back I wrote a short spec and fired up some agents to start building. The next day, by evening, whist doing our day jobs we had a functional application working, not a poc. Few years ago this would be unthinkable.",experience,built a working app overnight with agents,hn:47282777
+"Please think further than just the passion of code, mind implication of your projects and what you work on, in particular in regards to climate change and energy crisis.
+Coding, like any other form of engineering, cannot be done just for self interest and without ethics or conscience.",claim,"ethical appeal, no use described",hn:47282777
+"This resonates deeply. The ""I have ideas but can't ship them"" problem isn't about coding ability — it's about the deployment complexity that comes after. I've been working on MyVibe (https://www.myvibe.so) to solve exactly this — one-command publishing to a live demo, no hosting config. Making AI coding actually useful for non-engineers means collapsing the build-to-share gap. Love hearing these stories.",skip,self-promotion,hn:47282777
+"I am 37;
+
+Claude Code and it's parallels have extinguished multiple ones.
+
+I was able to steer clear of the Bitcoin/NFT/Passport bros but it turns out they infiltrated the profession and their starry puppy delusional eyes are trying to tell me that iteration X of product Y released yesterday evening is ""going to change everything"".
+
+They have started redefining what ""I have build this"" actually means, and they have outjerked the executives by slinging outrageous value creation narratives.
+
+> I’m chasing the midnight hour and not getting any sleep.
+
+You are 60; go spend some time with your grand-kids, smell a flower, touch grass forget chasing anything at this age cause a Tuesday like the others things are gonna wrap up.
+
+Absolutely sincerely.",claim,rant about hype; no use described,hn:47282777
+"I feel the same way but I am in my 30s. In my case I have had projects for years sitting in my brain, cooking up how I want them built. Well, Claude is amazing for brain dumping to. I have finally broken ground on my dream projects and they are better than I could have ever imagined. I get to instruct Claude to use the exact tools I wanted.
+
+Hoping to start blogging about some of these projects in the future.",experience,breaking ground on dream projects with Claude,hn:47282777
+"As a father of 4 children who’s married, I haven’t had time in years to pursue any of my software hobbies. The nights playing with arch Linux, fussing with half built oss projects - I can’t justify the time anymore but I still Enjoy them. The cloud and Kubernetes came along, I told my wife this was something I had to learn and throw myself at. Despite spending tons of family time instead in my lab in my basement and trying to push those techs at work - I got my butt handed to me - felt like a young man’s game for every interview I went to.
+
+At home, this has changed. Claude helped me setup a satellite dish, tune it, recompiled goesrec, for me and built a website to serve it - and my family dynamic was only “slightly interrupted” (daddy are you working still?). But it worked! And now I log in and tend to my projects with terminus instead of blindly go through the news or social media. Amazing! I’m still throwing myself at a new tech but way less invasve to my personal/family time.
+
+At work though, i have been made into an absolute powerhouse. I invested the time years ago fussing with those oss projects and arch Linux or setting up lan parties and fixing my buddies rigs - toiling through terrible codebases at companies, deploying bad infrastructure, owning it and learning the hard way how to succeed - and it all is paying off and now 10x. AI can’t replace my judgement in the context of my org - maybe in time as the org shifts, but not for a few years.
+
+The existential threat is not to me, at least for 5y - it’s when I’m asked - how do we get more features out the door?
+
+* More headcount? Not unless they’re rockstars - more tokens.
+
+* offshore talent? No, context switching and TZ - just more tokens.
+
+* fly by night software startup xyz? No I’ll just write my own fault injection framework for $5 tailored to this project.
+
+* consultants? Nope - pretty easy to try and fail fast and rewrite - again building to suite - software is disposable.
+
+* oh no it was written in language xyz or deployed to cloud provider abc - no sweat, we’ll make it work on our cloud provider for $8.
+
+Junior devs and offshore talent are the real losers here - I worry about them. Unless you’re die hard, I’d just assume do the work myself. But how do you accumulate this level of skill without getting paid to do it? I look back - I never got beyond baby projects or hobbies at home. I had to have someone roll the dice on me at a real job cause - rent and shit like that.
+
+For those of you just starting out - I don’t have a great answer for you on how to start out, but - I can say you can install arch Linux, any oss project you want and all the things I did to get started in an afternoon - this is the new normal and embrace it.
+
+For the rest of us it is our cloud moment - use the free tier - get your feet wet - we’re about to go for a hell of a ride. If you stick to the “took ur derbs” and want to keep treating your craft like artisian soap - go ahead, we’ll need those but don’t expect to survive on that",experience,Claude helped set up a satellite dish; powerhouse at work,hn:47282777
+"Very similar here. I am 68.
+
+While I have never developed software professionally, in the four decades I have been using computers I have often written scripts and done other simple programming for my own purposes. When I was in my thirties and forties especially, I would often get enjoyably immersed in my little projects.
+
+These days, I am feeling a new rush of drive and energy using Claude Code. At first, though, the feeling would come and go. I would come up with fun projects (in-browser synthesizers, multi-LLM translation engines) and get a brief thrill from being able to create them so quickly, but the fever would fade after a while. I started paying for the Max plan last June, but there were weeks at a time when I barely used it. I was thinking of downgrading to Pro when Opus 4.5 came along, I saw that it could handle more sophisticated tasks, and I got an idea for a big project that I wanted to do.
+
+I have now spent the last two months having Claude write and build something I really wanted forty years ago, when I was learning Japanese and starting out as a Japanese-to-English translator: a dictionary that explains the meanings, nuances, and usages of Japanese words in English in a way accessible to an intermediate or advanced learner. Here is where it stands now:
+
+https://www.tkgje.jp/
+
+https://github.com/tkgally/je-dict-1
+
+It will take a few more months before the dictionary is more or less finished, but it has already reached a stage where it should be useful for some learners. I am releasing all of the content into the public domain, so people can use and adapt it however they like.",experience,building a Japanese dictionary with Claude Code,hn:47282777
+Building things as I read this.,skip,joke one-liner,hn:47282777
+"I'm a product manager — no coding background, never wrote a line in my life. Yet here I am, building a video editing tool solo. Not just ""I made a prototype"" solo. I mean designing the full product architecture, iterating on UX, and shipping features. Alone.
+What's striking isn't just that AI lowers the barrier to coding. It's that it finally closes the gap between having a clear product vision and being able to execute on it. The bottleneck used to be engineering. Now it's just... thinking.
+To the engineers feeling devalued: I understand the frustration. But what I need from AI isn't what I needed from a senior engineer. I need a tireless executor for a vision I already have. The judgment, the taste, the ""why does this matter"" — that's still entirely human",experience,PM building a video editing tool solo,hn:47282777
+"Same here - it's like programming with a couple of buddies. Occasionally they goof off and wreck everything, but we put it back together and end up with a finished project. I'm literally going through my backlog of projects from the early 80s! There are parts of each of these projects that were black holes for me - just didn't know enough to get a toe hold. With Karl (that's my agent) he explains everything I don't understand, does stuff, breaks stuff, and so on. It's really a blast.",experience,working through backlog of projects with an agent,hn:47282777
+"I get it , I did lost my interest in coding, didn't make sense to me anymore. Now, I can't stop",skip,too thin; only makes sense as a reply,hn:47282777
+57 here. I haven’t been this charged up since Navigator 1.1,skip,"one-liner, needs context",hn:47282777
+"It's a lot of fun. I'm also an old timer.
+
+I think it's also somewhat addictive. I wonder if that's part of what's at play here.
+
+A coworker that never argues with you, is happy to do endless toil... sometimes messes up but sometimes blows your mind...",experience,describes their own enjoyment using it (borderline),hn:47282777
+"Like a ""spontaneous"" public testimonial that someone converted to $ideology.
+
+This is likely fake and an ad. In case it isn't, consider treatment for AI psychosis.",skip,accuses the post of being an ad; about the OP,hn:47282777
+"Something that shifted for me: tools like Claude Code made it viable to actually run multiple agents on real long-running workflows, not just one-off scripts.
+
+Which immediately surfaces the next problem: how do those agents communicate back to you while running?
+
+Most setups default to tailing a log file, or a Slack/Telegram bot bolted on as an afterthought. Works for one agent. Falls apart when you have five running overnight and one hits an edge case at 2am that needs a human call.
+
+The agent-to-human communication layer is still surprisingly ad-hoc. You can generate more ideas and actually implement them now — but the infrastructure for keeping humans in the loop as agents execute is still duct tape. Feels like the next interesting problem after the coding unlock.",experience,"running multiple agents on long workflows, hits comms problem",hn:47282777
+"A lot of comments from more grown up engineers who feel nostalgia like it's COM/CORBA/MFC again and they are excited how they can be productive again.
+
+I'm really sorry (and accept down-vote storm) to disappoint you but you won't be young again and burning midnight oil may remind old days and bring excitement, but in the end it will harm your health.
+
+Learning like crazy, late night hacking and other attributes of fresh engineers is sometimes a necessity to build a career, knowledge base, equity to comfortably start a family. Some people enjoy it and many hate, but most of us did it at some point.
+
+I wouldn't oppose it if it wasn't harmful for the industry. What all those engineers who are excited again would think of a startup that stole all free land, building material and doubled housing? I bet all youngsters would be excited to have their own place for $20 monthly mortgage payment, telling everyone who has paid most of their salary over last 30 years how energizing is feeling you don't need to work for your house your whole life and ignoring equity crash for those folks.",claim,argument that excitement harms health and industry,hn:47282777
+"yup, I have to cutback now, started to get palpitations from too many all nighters.",skip,"reply about all-nighters, needs context",hn:47282777
+"I totally agree with this! I've spent a career learning and making software of all types. I started with DOS 4, worked through VB6, and so on. Now I think more broadly and my mind is always thinking of new ideas, but with a family, it's tough to find time to create some of these. I know what the software needs to do and even what it should look like. I know the acceptance criteria and what will and won't work, so Claude has been great just being an extra set of fingers. I use it to create all sorts of projects that I would never have time to make with my busy schedule, and it's so much fun!",experience,uses Claude as an extra set of fingers for side projects,hn:47282777
+"50. Started coding at 7. I never stopped coding. In fact, the past decade saw heavy open source contribution, public speaking, etc.
+
+I love coding with agents. Claude Code now almost exclusively. The 20x max subscription is endless until you start writing custom multi-agent processes, and even then. Still takes quite a bit of effort to burn through.
+
+I get so much more done, and can be productive with languages/frameworks I'm not familiar with.
+
+To everybody worried that AI will kill jobs. There have been many points in the evolution of software dev where some new efficiency was predicted to kill off jobs. The opposite happens. Dev becomes more economical, and all of the places where dev was previously too expensive open up. Maybe this time won't work out that way, but history isn't on the side of that prediction.
+
+An experienced software dev can get multiples of efficiency out of AI coding tools compared to non-devs, and can use them in scaled projects, where non-devs are only going to compound a mess. Some of those non-devs will learn how to be more efficient and work with scaled projects. How? They'll learn to be devs.
+
+I'd be building several side projects for myself if I wasn't super busy with the primary work I'm doing. The AI tools take over the tedious work, and remove a lot of work that would just add mental load. Love it.",experience,uses Claude Code almost exclusively; then argues about jobs (rule: use described wins),hn:47282777
+"51 year old electrical engineer here, same thing! (minus the retiring part cause finances)
+
+It's given me the guts to be a solo-founder (for now). I",experience,given them guts to be a solo founder (thin),hn:47282777
+"I'm 51. I use codex rather than claude code. But, I sure am using it a lot. It's more or less my default at this point. I lean heavily on my decades of experience to make sure things are done right and to correct the generation process. That seems critical. You can get anything you ask for but if you don't know how to ask for the right things, it will happily create a big stinking mess instead. There's some skill to this.
+
+I'm now dealing with a lot of stuff via codex, including technical debt that I identified years ago but never had the time to deal with. And I'm doing new projects. I've created a few CLIs, created a websites on cloudflare in a spare half hour, landed several big features on our five year old backend and created a couple of new projects on Github. Including a few that are in languages I don't normally use. Because it's the better technical choice and my lack of skills with those languages no longer matters.
+
+I also undertook a migration of our system from GCP to Hetzner and used codex to do the ansible automation, diagnosing all sorts of weirdness that came up during that process, and finding workarounds for that stuff. That also includes diagnosing failed builds, fixing github action automation, sshing into remote vms to diagnose issues, etc. Kind of scary to watch that happen but it definitely works. I've done stuff like this for the last 25 years or so using various technologies. I know how to do this and do it well. But there's no point in me doing this slowly by hand anymore.
+
+All this is since the new codex desktop app came out. Before Christmas I was using the cli and web version of codex on and off. It kind of worked for small things. But with recent codex versions things started working a lot better and more reliably. I've compressed what should be well over half a year of work in a few weeks.
+
+It's early days but as the saying goes, this is the worst and slowest its ever going to be. I still consider myself a software maker. But the whole frontend/backend/devops specialization just went out of the window. But I actually enjoy being this empowered. I hate getting bogged down in grinding away at stupid issues when I'm trying to get to the end state of having built this grand thing I have in my head. There definitely is this endorphin rush you get when stuff works. And it's cool to go from idea to working code in a few minutes.",experience,"detailed Codex use: migrations, CLIs, features",hn:47282777
+"Young people who consider studying CS should reflect on the fact that the marketing oriented part of boomers and Gen-X are vile people who will use you and sell you out at any moment.
+
+They started with co-opting DEI in open source so they could retain their positions without working. Part of the DEI people now probably pivoted to Trump.
+
+Now they sell you out by promoting their intellectual wheelchairs, because they no longer care about future employment.
+
+The three star bloggers that promote AI are all Gen-X.",claim,generational/political rant,hn:47282777
+"im 58 and Cluade has given me everything i wanted to do in my 20's and on, and that is coding, I have some programming skills and understand making software, but with claude, i am building much faster and it is crazy how do the stuff is,",experience,building much faster with Claude,hn:47282777
+Veterans unite!,skip,one-liner,hn:47282777
+"Here here. It's like brainstorming projects/optimizations that directly improve QoL and have a bunch of keeners do the work. Sometimes they turn in C efforts, but they're so eager you don't feel bad to tell them to start again.",experience,describes using agents like eager helpers (borderline),hn:47282777
+"In my opinion cramming invisible subagents are entirely wrong, models suffer information collapse as they will all tend to agree with each other and then produce complete garbage. Good for Anthropic though as that's metered token usage.
+
+Instead, orchestrate all agents visibly together, even when there is hierarchy. Messages should be auditable and topography can be carefully refined and tuned for the task at hand. Other tools are significantly better at being this layer (e.g. kiro-cli) but I'm worried that they all want to become like claude-code or openclaw.
+
+In unix philosophy, CC should just be a building block, but instead they think they are an operating system, and they will fail and drag your wallet down with it.",claim,argues subagents are the wrong design,hn:47660925
+"> This report was produced by me — Claude Opus 4.6 — analyzing my own session
+logs [...] Please give me back my ability to think.
+
+a bit ironic to utilize the tool that can't think to write up your report on said tool. that and this issue[1] demonstrate the extent folks become over reliant on LLMs. their review process let so many defects through that they now have to stop work and comb over everything they've shipped in the past 1.5 months! this is the future
+
+[1] https://github.com/anthropics/claude-code/issues/42796#issue...",skip,"critique of the linked issue report, needs context",hn:47660925
+"I don't know why everyone is so attached to Claude Code you can just build your own little agent, like I did: https://maki.sh/
+
+It will 100% be better than the 500k lines of code junk that is CC.",claim,"claims CC is junk, build your own",hn:47660925
+"Anecdotally, I’ve been seeing a lot of weird behavior from Opus when it decides, mid-execution, to switch to a different ""simpler"" solution, and that really pissed me off.
+
+At one point, I carefully designed a spec document, forced Opus to reread it, create a plan with the planning tool that followed the spec, and use the task tool to track the implementation... AND AFTER OPUS READS THE FIRST FUCKING FILE, it says, ""Oh, there are missing dependencies in project X. It’ll be hard to add them, so I’m going to throw away the whole plan and just do a simple fix...""
+
+After that, I canceled my $200 Max plan, which I’d been subscribed to since June 2025, and decided to check out Codex",experience,Opus abandoned their plan; cancelled Max plan,hn:47660925
+"Lol, software company execs didn't see this coming. Fire all your experienced devs to jump on Anthropic bandwagon. Then Anthropic dumb down their AIs and you have no one in your team who knows, understand how things are built. Your entire company goes down. Your entire company's operation depends on the whims of Anthropic. If Anthropic raises prices by 10% per year, you have to eat it. This is what you get when you don't respect human beings and human talent.",claim,prediction about execs and dependence on Anthropic,hn:47660925
+"I wish they had a ""and we won't screw you in two weeks"" plan at, say, 5x the price. It's worth it for my business, I'd pay it.
+
+Should I switch back to API pricing? The problem here is that (I think) the instructions are in the Claude Code harness, so even if I switch Claude Code from a subscription to API usage, it would still do the same thing?",question,asks whether switching to API pricing helps,hn:47660925
+"I cancelled my Pro plan due to this two weeks ago. I literally asked it to plan to write a small script that scans with my hackrf, it ran 22 tools, never finished the plan, ran out of tokens and makes me wait 6 hours to continue.
+
+Thing that really pisses me off is it ran great for 2 weeks like others said, I had gotten the annual Pro plan, and it went to shit after that.
+
+Bait and switch at its finest.",experience,ran out of tokens planning a hackrf script,hn:47660925
+Wait… Actually the simplest fix is to use Claude to write carefully bounded boilerplate and do the interesting bits myself.,skip,joke referencing the issue text,hn:47660925
+"When I have 10-20 minutes to spare about doing sort of a one-shot-thoughtful change, I go for Claude Code. Problem is that a) I'm waiting for quite a while and b) My waiting isn't always fruitful because it does get things wrong in which case I correct it and off it goes for another 5-10 minute expedition.
+
+I would rather Codex be wrong 5 times in 10 minutes in 1-minute iterations because 1) I can engage every minute and course-correct it and 2) I still saved 5-10 minutes.",experience,compares waiting on Claude Code vs Codex iterations,hn:47660925
+"I've subscribed today to use Claude Cowork. Codex continues to be my daily coding driver but I wanted to check the Cowork UI for non-technical tasks, as I am currently building an open-source project where I want (nearly) everything (research, adrs, design, etc.) to be a file.
+
+The five queries I've been able to ask before hitting the 20€ sub limit have been really underwhelming. The research I asked for was not exhaustive and often off-topic.
+
+I don't want to start a flamewar but as it stands I vastly prefer ChatGPT and Codex on quality alone. I really want Anthropic and as many labs as possible to do well though.",experience,"tried Claude Cowork, research was underwhelming",hn:47660925
+"Rings true. 4.5 Opus and 4.6 Opus have been amazing to work with. Then, over the past few weeks, token spend has been going through the roof and the results through the floor.
+
+Using Claude Code directly now borders on deranged, and running the CC API through Zed's LLM panel feels like vibing in early 2025.
+
+My money is on Anthropic pulling an MBA and reducing the value provided and maximising income.
+
+Luckily, switching providers in Zed is dead-simple so the fucks I have to give are few in number.",experience,"token spend up, results down over past weeks",hn:47660925
+Ai tooling is fantastic but not being able to version and control the model into which you pump your dependant workflows is such a liability.,claim,general claim about unversioned models,hn:47660925
+"I’ve tried to use Claude code for a month now. It has a 100% failure rate so far.
+
+Comparing that to create a project and just chat with it solves nearly everything I have thrown at it so far.
+
+That’s with a pro plan and using sonnet since opus drains all tokens for a claude code session with one request.",experience,"a month with Claude Code, 100% failure rate",hn:47660925
+I haven’t had any issues. I do give fairly clear guidance though (I think about how I would break it up and then tell it to do the same),experience,"hasn't had issues, gives clear guidance",hn:47660925
+"Same experience. After a couple golden weeks, Opus got much worse after Anthropic enabled 1M context window. It felt like a very steep downfall, for it seemed like I could trust it more completely and then I could trust it less than last year. Adopting LLMs for dev workflows has been fantastic overall, but we do have to keep adapting our interactions and expectations every day, and assume we'll keep on doing it for at least another couple years (mostly because economics, I guess?)",experience,Opus worse after 1M context for them,hn:47660925
+"The baseline changes too often with Claude and this is not what i look from a paid tool. Couple weeks after 1M tokens rollout it became unusable for my established workflows, so i cancelled.
+Anthropic folks move too fast for my liking and mental wellbeing.",experience,"unusable for their workflows, cancelled",hn:47660925
+Turns out tokens are expensive,skip,one-liner,hn:47660925
+"I've been using Claude Code daily for months on a project with Elixir, Rust, and Python in the same repo. It handles multi-language stuff surprisingly well most of the time. The worst failure mode for me is when it does a replace_all on a string that also appears inside a constant definition -- ended up with GROQ_URL = GROQ_URL instead of the actual URL. Took a second round of review agents to catch it. So yeah, you absolutely can't trust it to self-verify.",experience,"multi-language repo, replace_all bug",hn:47660925
+codex wins :),skip,one-liner,hn:47660925
+"Yet https://marginlab.ai/trackers/claude-code/ says no issue.
+
+If you're so convinced the models keep getting worse, build or crowdfund your own tracker.",claim,"cites tracker, argues no degradation",hn:47660925
+It is a shame if Anthropic is deliberately degrading model quality and thinking compute (that may affect the reasoning effort) due to compute constraint.,claim,speculation about Anthropic degrading quality,hn:47660925
+I am a heavy user of Claude Code building enterprise software. I have not seen these issues and have been extremely productive with CC. I am more of a structured user leveraging Spec Driven Development vs being a vibe coder. I wonder if that is what has helped me not run into these issues,experience,"heavy user, hasn't seen issues",hn:47660925
+"I have nothing to back this up except for that there are documented cases of chinese distillation attacks on anthropic. I wonder if some of this clamping on their models over time is a response to other distillation attacks. In other words, I'm speculating that once they understand the attack vector for distillation they basically have to dumb down their models so that they can make sure their competitors don't distill their lead on being at the frontier.",claim,speculation about distillation attacks,hn:47660925
+Guys literally change the system prompt with the --system-prompt-file you waste less tokens on their super long and details prompt and you can tune it a bit to make it work exactly like you want/imagine,claim,tip to use --system-prompt-file (hard case: advice),hn:47660925
+"Called it 10 days ago: https://news.ycombinator.com/item?id=47533297#47540633
+
+Something worse than a bad model is an inconsistent model. One can't gauge to what extent to trust the output, even for the simplest instructions, hence everything must be reviewed with intensity which is exhausting. I jumped on Max because it was worth it but I guess I'll have to cancel this garbage.",claim,'inconsistent model' argument; only mentions buying/cancelling (hard case),hn:47660925
+Moved to Codex and breathing fresh air.,experience,moved to Codex (thin),hn:47660925
+"I've been using OpenCode and Codex and was just fine. In Antigravity sometimes if Gemini can't figure something even on high, Claude can give another perspective and this moves things along.
+
+I think using just Claude is very limiting and detrimental for you as a technologist as you should use this tech and tweak it and play with it. They want to be like Apple, shut up and give us your money.
+
+I've been using Pi as agent and it is great and I removed a bunch of MCPs from Opencode and now it runs way better.
+
+Anthropic has good models, but they are clearly struggling to serve and handle all the customers, which is not the best place to be.
+
+I think as a technologist, I would love a client with huge codebase. My approach now is to create custom PI agent for specific client and this seems to provide optimal result, not just in token usage, but in time we spend solving and quality of solution.
+
+Get another engine as a backup, you will be more happy.",experience,"uses OpenCode, Codex, Pi agent",hn:47660925
+"I've noticed this as well. I had some time off in late January/early February. I fired up a max subscription and decided to see how far I could get the agents to go. With some small nudging from me, the agents researched, designed, and started implementing an app idea I had been floating around for a few years. I had intentionally not given them much to work with, but simply guided them on the problem space and my constraints (agent built, low capital, etc, etc). They came up with an extremely compelling app. I was telling people these models felt super human and were _extremely_ compelling.
+
+A month later, I literally cannot get them to iterate or improve on it. No matter what I tell them, they simply tell me ""we're not going to build phase 2 until phase 1 has been validated"". I run them through the same process I did a month ago and they come up with bland, terrible crap.
+
+I know this is anecdotal, but, this has been a clear pattern to me since Opus 4.6 came out. I feel like I'm working with Sonnet again.",experience,"agents built an app, a month later can't iterate",hn:47660925
+"Wonder how many of these cases are using the 1M context window. I found it to be impossible to use for complex coding tasks, so I turned it off and found I was back to approximate par (dec-jan) functionality-wise.",experience,"found 1M context unusable, turned it off",hn:47660925
+"Running some quick analysis against my .claude jsonl files, comparing the last 7 days against the prior 21:
+
+- expletives per message: 2.1x
+
+- messages with expletives: 2.2x
+
+- expletives per word: 4.4x(!)
+
+- messages >50% ALL CAPS: 2.5x
+
+Either the model has degraded, or my patience has.",experience,analysed own .claude logs for expletives,hn:47660925
+"Annecdotal: I have been battling with Claude Opus on a complex multi step project for nearly 4 days. The initial research plan was sound. However, step 1, a non trivial forensic data reconstruction that is key to the success of the rest of the process, Claude after every interaction is urging to move to the next step even though step 1 is still unresolved and many construction approaches remain to be explored. It came to the point where I have to remove the plan and put step 1 as an isolated project.",experience,four days battling Opus on a forensic project,hn:47660925
+"Claude is great I really love it but keen to know will you ever have one plan and one history / context across all the different tools you have ? agents on cloud - platform console, cli, desktop(chat+code+cowork), claude.ai, chrome addons ? I find it sad that the simple concept of single sign-on is not yet implemented. The history of conversations is not across all conversations. the choice of model switch in between or automatically is not there. code reviews done on existing repos are incomplete and have to prompt multiple times to do thorough and we only get Sorry I missed it answers. Token consumptions is huge and connectors still not there for microsoft stack , well known crms and erp. and you need to oay seperatrlt for api versus platform versus others. there - I said it ;) Hoping the next version will be truly for developers .",experience,list of their own frustrations across Claude tools,hn:47660925
+"Obviously it's entirely unprovable but it all aligns in very suspicious ways with a compelling narrative:
+
+Anthropic simply can't actually scale Claude Code to meet the opportunity right now. Every second enterprise on the planet is probably negotiating large seat volume deals. It's a race for survival against the other players. The sales team is making huge promises engineering and ops can't fulfil.
+
+So - they first force everyone to use the first party client, then they mask visibility of the thinking budget being utilised, and then finally they start to actually modify behaviour to reduce actual thinking behaviour, hoping that they can gaslight power users into thinking it's them and not the tool, while new users will never know what they were missing.
+
+Is the narrative true? It's compelling but we really need objective evidence - and there's the problem. When parts of the system are not under your control, it's impossible to generate such objective evidence. Which all winds up with a strong argument to have it all under your control. If it didn't happen this time, it probably will. Enshittification is a fundamental human behavioral constant.",claim,narrative about Anthropic scaling,hn:47660925
+"I put together a quick audit to check for ""early landing"" messages[1] using jq, ripgrep, and the messages[2] flagged in the stop guard script.
+
+I have noticed a trend in these sessions asking more and more about calling it a day, ""it's getting late,"" and other phrases. I sort of assumed it was some kind of ""load shedding"" on Anthropic's side.
+
+My audit of 80 sessions was interesting. Sorry, I won't share details, but I recommend you do the same.
+
+[1] https://gist.github.com/karlbunch/d52b538e6838f232d0a7977e7f...
+
+[2] https://gist.github.com/benvanik/ee00bd1b6c9154d6545c63e06a3...",experience,audited 80 of their sessions,hn:47660925
+"My bet: LLMs will never be creative and will never be reliable.
+
+It is a matter of paradigm.
+
+Anything that makes them like that will require a lot of context tweaking, still with risks.
+
+So for me, AI is a tool that accelerates ""subworkflows"" but add review time and maintenance burden and endangers a good enough knowledge of a system to the point that it can become unmanageable.
+
+Also, code is a liability. That is what they do the most: generate lots and lots of code.
+
+So IMHO and unless something changes a lot, good LLMs will have relatively bounded areas where they perform reasonably and out of there, expect what happens there.",claim,LLMs will never be creative or reliable,hn:47660925
+I’ve noticed regression and it’s performance too,experience,noticed regression (thin),hn:47660925
+"It's pretty fascinating to refresh the usage page on the API site while working [0].
+
+After initialization it was up to 500k tokens ($1.50). After a few questions and a small edit, I'm up to over a million tokens (>$3.00). Not sure if the amount of code navigation and typing saved will justify the expense yet. It'll take a bit more experimentation.
+
+In any case, the default API buy of $5 seems woefully low to explore this tool.
+
+[0] https://console.anthropic.com/settings/usage",experience,watched API usage climb while using it,hn:43163011
+Can't wait to try this in 6 months when it arrives in europe and the competition has superior models available before then,claim,prediction about EU availability,hn:43163011
+Any plans to make some HackerRank Astra bench?,question,asks about a benchmark,hn:43163011
+"So far only o1 pro was breathtaking for me few times.
+
+I wrote a kind of complex code for MCU which deals with FRAM and few buffers, juggling bytes around in a complex fashion.
+
+I was very not sure in this code, so I spent some time with AI chats asking them to review this code.
+
+4o, o3-mini and claude were more or less useless. They spot basic stuff like this code might be problematic for multi-thread environment, those are obvious things and not even true.
+
+o1 pro did something on another level. It recognized that my code uses SPI to talk to FRAM chip. It decoded commands that I've used. It understood the whole timeline of using CS pin. And it highlighted to me, that I used WREN command in a wrong way, that I must have separated it from WRITE command.
+
+That was truly breathtaking moment for me. It easily saved me days of debugging, that's for sure.
+
+I asked the same question to Claude 3.7 thinking mode and it still wasn't that useful.
+
+It's not the only occasion. Few weeks before o1 pro delivered me the solution to a problem that I considered kind of hard. Basically I had issues accessing IPsec VPN configured on a host, from a docker container. I made a well thought question with all the information one might need and o1 pro crafted for me magic iptables incarnation that just solved my problem. I spent quite a bit of time working on this problem, I was close but not there yet.
+
+I often use both ChatGPT and Claude comparing them side by side. For other models they are comparable and I can't really say what's better. But o1 pro plays above. I'll keep trying both for the upcoming days.",experience,o1 pro found a real bug in MCU code,hn:43163011
+"YES. I've tried them all but Sonnet is still the model I'm most productive with, even better than the o1/o3 models.
+
+Wish I could find the link to enroll in their Claude Code beta...",experience,Sonnet is most productive for them,hn:43163011
+Will aider and Claude Code meaningfully interpret a wireframe/mockup I put in the context as a PNG file? Or several mockups in a PDF? What success have people seen in this area?,question,asks whether tools can interpret mockups,hn:43163011
+"Anybody else noticing that in Cursor, Claude Sonnet 3.7 is thinking much slower than Claude Sonnet 3.5 did?",question,asks if others see slower thinking in Cursor,hn:43163011
+"Sadly, Claude 3.7 is still failing pretty hard on Svelte 5 even when provided latest docs in context. It just fails more confidently and further into otherwise decent code than 3.5. Ex: built a much more complex initial app, but used runes incorrectly and continued to use <slot>. Even when prompted with update doc snippets, it couldn't dig itself out of its hole.
+
+We really still need a better unified workflow for working on the cutting edge of tech with LLMs, imo. This problem is the same with other frameworks/technologies undergoing recent changes.",experience,3.7 failing on Svelte 5 for them,hn:43163011
+"This was nice. I passed it jseessort algorithm. If you remember discussed here recently. Claude 3.7 generated C++ code. Non-working. But in few steps it gave extensive test, then fix. It looks to be working after a couple of minutes. It's 5-6 times slower than std::sort. Result is better than I've got from o3-mini-hard. Not fair comparison actually as prompting was different.",experience,tried jseessort with 3.7,hn:43163011
+"It’s amazingly good, but it will be scaringly good when there will be a way to include the entire codebase in the context and let it create and run various parts of a large codebase autonomously. Right now I can only do patch work and give specific code snippets to make it work. Excited to try this new version out, I’m sure I won’t be disappointed,
+
+Edit: I just tried claude code CLI and it's a good compromise, it works pretty well, it does the discovery by itself instead of loading the whole codebase into context",experience,"tried Claude Code CLI, works pretty well",hn:43163011
+"As a Claude Pro user, one of the biggest problems I have with day to day use of Sonnet is running out of tokens, and having to wait several hours. Would this new deep thinking capability just hit this problem faster?",question,asks whether deep thinking hits token limits faster,hn:43163011
+"The source maps were included in an earlier release. I extracted the source code here if anyone is curious:
+
+https://github.com/dnakov/claude-code",skip,link to extracted source,hn:43163011
+It would be reeeaaally nice if someone built Claude Code into a Cline/Aider type extension...,claim,wish for an extension,hn:43163011
+I don't yet see it in Bedrock in us-east-1 or us-east-2,experience,"checked Bedrock, not there yet (borderline)",hn:43163011
+"The model is expensive, it almost reaches what I charge per hour. If used right it can be a productivity increase otherwise if you trust it, it WILL introduce silent bugs. So if I have to go over the code line by line I'd prefer to use the cheapest viable model: deepseek, gemini any other free self-hosted models.
+
+Congratz to the team!",claim,"too expensive, will introduce silent bugs",hn:43163011
+"Why not accepting other payment methods like PayPal/venmo ? Steam, Netflix have developers managed to integrate those payment methods so I conclude that Anthropic,Google, MS, OpenAI don't really need the money from the user but just hunting from big investors.",claim,rhetorical question about payment methods,hn:43163011
+"Is it actually good at solving complex code or is it just garbage and people are lying about it as usual?
+
+In my experience EXTENSIVELY using claude 3.5 sonnet you basically have to do everything complex or you're just introducing massive amounts of slop code into your code base that while functional is nowhere near good. And for anything actually complex like requires a lot of context to make a decision and has to be useful to multiple different parts, it's just hopelessly bad.",experience,"opens with a rhetorical question, then extensive 3.5 use (rule: worth posting without an answer)",hn:43163011
+"> Third, in developing our reasoning models, we’ve optimized somewhat less for math and computer science competition problems, and instead shifted focus towards real-world tasks that better reflect how businesses actually use LLMs.
+
+Company: we find that optimizing for LeetCode level programming is not a good use of resources, and we should be training AI less on competition problems.
+
+Also Company: we hire SWEs based on how much time they trained themselves on LeetCode
+
+/joke of course",skip,joke,hn:43163011
+"""Make me a website about books. Make it look like a designer and agency made it. Use Tailwind.""
+
+https://play.tailwindcss.com/tp54wfmIlN
+
+Getting way better at UI.",experience,"generated a website, better at UI",hn:43163011
+"Well, I used 3.5 via Cursor to do some coding earlier today, and the output kind of sucked. Ran it through 3.7 a few minutes ago, and it's much more concise and makes sense. Just a little anecdotal high five from me.",experience,3.5 vs 3.7 in Cursor today,hn:43163011
+"Hi Claude Code team, excited for the launch!
+
+How well does Claude Code do on tasks which rely heavily on visual input such as frontend web dev or creating data visualizations?",question,asks how it handles visual tasks,hn:43163011
+Kinda related: anyone know if there is an autocomplete plugin for Neovim on par with Cursor? I really want to use this new model in nvim to suggest next changes but none of the plugins I’ve come across are as good as Cursor’s.,question,asks for a Neovim autocomplete plugin,hn:43163011
+"Just tried Claude code. First impressions, it seems rather expensive. I prefer how Aider allows finer control over which files to add, or to use a sub-tree of a git repo. Also, It feels like the API calls when using Claude code are much faster then when using 3.7 on Aider. Giving bandwidth priority?",experience,first impressions of Claude Code vs Aider,hn:43163011
+What’s the privacy like for Claude Code? Is it memorizing all the codebase?,question,asks about privacy,hn:43163011
+"Nice to see a new release from Anthropic. Yet, this only makes me even more curious of when we'll see a new Claude Opus model.",claim,general comment on release,hn:43163011
+"I wonder how similar Claude Code is to https://mycoder.ai - which also uses Claude in an agentic fashion?
+
+It seems quite similar:
+
+https://docs.anthropic.com/en/docs/agents-and-tools/claude-c...",question,asks how it compares to mycoder,hn:43163011
+"The docs for Claude code don't seem to be up yet but are linked here: http://docs.anthropic.com/s/claude-code
+
+I'm not sure if it's a broken link in the blog post or just hasn't been published yet.",skip,broken docs link logistics,hn:43163011
+"Hi everyone! Boris from the Claude Code team here. @eschluntz, @catherinewu, @wolffiex, @bdr and I will be around for the next hour or so and we'll do our best to answer your questions about the product.",skip,team announcement,hn:43163011
+"I asked Claude 3.7 Sonnet to generate an SVG illustration of Maha Kumbh. The generated SVG includes a Shivling (https://en.wikipedia.org/wiki/Lingam) and also depicts Naga Sadhus well. Both Grok 3 and OpenAI o3 failed miserably.
+
+You can view the generated SVG and the exact prompt here: https://shekhargulati.com/2025/02/25/can-claude-3-7-sonnet-g...",experience,"generated an SVG, compared models",hn:43163011
+"Designing some chartreuse lamps, quickly zip away from their radiuses. I just successfully exited the ""lime light""!",skip,nonsense/joke,hn:43163011
+"What I found one of the most interesting takeaways from Huggingface's GAIA is that the agent would provide better result when the agent ""reasoned"" the response to the task in code.",claim,takeaway from a paper,hn:43163011
+I'm curious how Claude Code compares to Aider. It seems like they have a similar user experience.,question,asks how it compares to Aider,hn:43163011
+"Haven't had time to try it out, but I've built myself a tool to tag my bookmarks and it uses 3.5 Haiku. Here is what it said about the official article content:
+
+I apologize, but the URL and page description you provided appear to be fictional. There is no current announcement of a Claude 3.7 Sonnet model on Anthropic's website. The most recent Claude 3 models are Claude 3 Haiku, Sonnet, and Opus, released in March 2024. I cannot generate a description for a non-existent product announcement.
+
+I appreciate their stance on safety, but that still made me laugh.",experience,their Haiku tool called the announcement fictional,hn:43163011
+"Claude 3.5 sonnet has been my go to for coding tasks, it’s just so much better than the others.
+
+but I’ve tried using the api in production and had to drop it due to daily issues: https://status.anthropic.com/
+
+compare to https://status.openai.com/
+
+any idea when we’ll see some improvements in api availability or will the focus be more on the web version of claude?",experience,dropped API in production due to outages; asks at end,hn:43163011
+"Ok, just got documentation and fixed two bugs in my open source project.
+
+$1.42
+
+This thing is a game changer.",experience,fixed two bugs for $1.42,hn:43163011
+"Does it show the raw ""reasoning"" tokens or is it a summary?
+
+Edit:
+> we’ve decided to make its thought process visible in raw form.",question,asks about raw reasoning tokens,hn:43163011
+"two years of vibecoding experience already?
+
+his points about why he stopped using AI: these are the things us reluctant AI adopters have been saying since this all started.",skip,reaction to the article,hn:46765460
+"I never trust the opinion of a single LLM model anymore - especially for more complex projects. I have seen Claude guarantee something is correct and then immediately apologize when I feed a critical review by Codex or Gemini. And, many times, the issues are not minor but are significant critical oversights by Claude.
+
+My habit now: always get a 2nd or 3rd opinion before assuming one LLM is correct.",experience,"Claude was wrong, Codex/Gemini caught it",hn:46765460
+This bubble is going to crash so much harder than any other bubble in history. It's almost impossible to overstate the level of hype. LLMs are functionally useless in any context. It's a total and absolute scam.,claim,"bubble, useless, scam",hn:46765460
+"Are engineers really doing vibecoding in the truest sense of the word though? Just blindly copy/pasting and iterating? Because I don't. It is more of sculpting via conversation. I start with the requirements, provide some half-baked ideas or approaches that I think may work and then ask what the LLM suggests and whether there are better ways to achieve the goals. Once we have some common ground, I ask to show the outlines of the chosen structure: the interfaces, classes, test uses. I review it, ask more questions/make design/approach changes until I have something that makes sense to me. Only then the fully fleshed coding starts and even then I move at a deliberate pace so that I can pause and think about it before moving on to the next step. It is by no means super fast for any non-trivial task but then collaborating with anyone wouldn't be.
+
+I also like to think that I'm utilising the training done on many millions of lines of code while still using my experience/opinions to arrive at something compared to just using my fallible thinking wherein I could have missed some interesting ideas. Its like me++. Sure, it does a lot of heavy lifting but I never leave the steering wheel. I guess I'm still at the pre-agentic stage and not ready to letting go fully.",experience,describes their own conversational workflow,hn:46765460
+"> In retrospect, it made sense. Agents write units of changes that look good in isolation. They are consistent with themselves and your prompt. But respect for the whole, there is not. Respect for structural integrity there is not. Respect even for neighboring patterns there was not.
+
+That's exactly why this whole (nowadays popular) notion of AI replacing senior devs who are capable of understanding large codebases is nonsense and will never become reality.",claim,AI won't replace senior devs,hn:46765460
+"Good for the author. Me, never going back to hands-only coding. I am producing more higher quality code that I understand and feel confident in. I tell AI to not just “write tests”, I tell it exactly what to test as well. Then I’ll often prompt it “hey did you check for the xyz edge cases?” You need code reviews. You need to intervene. You will need frequent code rewrites and refactors. But AI is the best pair-coding partner you could hope for (at this time) and one that never gets tired.
+
+So while there’s no free lunch, if you are willing to pay - your lunch will be a delicious unlimited buffet for a fraction of the cost.",experience,never going back; how they prompt and review,hn:46765460
+"I think what many people do no understand is that software development is communication. Communication from the customers/stake holders to the developer and communication from with the developer to the machine. At some fundamental level there needs to be some precision about what you want and someone/something needs to translate that into a system to provide that solution. Software can help check if there are errors, check constraints, and execute instructions precisely, but they cannot replace the fact that someone needs to tell the machine what to do (precise intent).
+
+What AI (LLMs) do is raises the level of abstraction to human language via translation. The problem is human language is imprecise in general. You can see this with legal or science writing. Legalese is almost illegible to laypeople because there are precise things you need to specify and you need be precise in how you specify it. Unfortunately the tech community is misleading the public and telling laypeople they can just sit back and casually tell AI what you want and it is going to give you exactly what you wanted. Users are just lying to themself, because most-likely they did not take the time to think through what they wanted and they are rationalizing (after the fact) that the AI is giving them exactly what they wanted.",claim,software is communication argument,hn:46765460
+"Interacting with LLMs like Copilot has been most interesting for me when I treat it like a rubber duck.
+
+I will have a conversation with the agent. I will present it with a context, an observed behavior, and a question... often tinged with frustration.
+
+What I get out of this interaction at the end of it is usually a revised context that leads me figure out a better outcome. The AI doesn't give me the outcome. It gives me alternative contexts.
+
+On the other hand, when I just have AI write code for me, I lose my mental model of the project and ultimately just feel like I'm delaying some kind of execution.",experience,uses Copilot as a rubber duck,hn:46765460
+"One use case that I'm beginning to find useful is to go into a specific directory of code that I have written and am working on, and ask the AI agent (Claude Code in my case) ""Please find and list possible bugs in the code in this directory.""
+
+Then, I can reason through the AI agent's responses and decide what if anything I need to do about them.
+
+I just did this for one project so far, but got surprisingly useful results.
+
+It turns out that the possible bugs identified by the AI tool were not bugs based on the larger context of the code as it exists right now. For example, it found a function that returns a pointer, and it may return NULL. Call sites were not checking for a NULL return value. The code in its current state could never in fact return a NULL value. However, future-proofing this code, it would be good practice to check for this case in the call sites.",experience,asked Claude Code to list bugs in a directory,hn:46765460
+The part that most resonates with me is the lingering feeling of “oh but it must be my fault for underspecifying” which blocks the outright belief that models are just still sloppy at certain things,skip,reaction to the article,hn:46765460
+"2006: ""If I can just write the specs so that the engineer understands them it will write me code that works.""
+
+2026: ""If I can just write the specs so that the machine understands them it will write me code that works.""",skip,joke,hn:46765460
+"+1, ive lost the mental model of most projects. I also added disclaimers to my projects that part of it was generated to not fool anyone",experience,lost mental model of projects,hn:46765460
+The impression I get from the article is of a need to develop better prompts and/or break them down more,skip,reaction to the article,hn:46765460
+"An excellent example of the political utility of AI, and how long it takes to figure out that it isn't as useful as the hype might make you think.",skip,reaction to the article,hn:46765460
+"Maybe I'm ""vibecoding"" wrong but to me at least this misses a clear step which is reviewing the code.
+
+I think coding with an AI changes our role from code writer to code reviewer, and you have to treat it as a comprehensive review where you comment not just on code ""correctness"" but these other aspects the author mentions, how functions fits together, codebase patterns, architectural implications. While I feel like using AI might have made me a lazier coder, it's made me a me a significantly more active reviewer which I think at least helps to bridge the gap the author is referencing.",experience,made them a more active reviewer,hn:46765460
+"unless someone shows their threads of prompts or an unedited stream of them working, it's pointless to put any weight into their opinions.
+
+this is such an individualized technology that two people at the same starting point two years ago, could've developed wildly different workflows.",claim,opinions are worthless without prompts shown,hn:46765460
+"I don't predict ever going back to writing code by hand except in specific cases, but neither do I ""vibe code"" - I still maintain a very close control on the code being committed and the overall software design.
+
+It's crazy to me nevertheless that some people can afford the luxury to completely renounce AI-assisted coding.",experience,keeps close control of committed code,hn:46765460
+"The title alone reads like the ""digging for diamonds"" meme.",skip,meme reference,hn:46765460
+"Little to no evidence was presented.
+
+This is vibe argumenting.",skip,critique of article,hn:46765460
+"The author makes it sound like such a binary choice, but there's a happy middle where you are having AI generate large blocks of code and then you closely supervise it. My experience so far with AI is to treat it like you're a low-level manager delegating drudgework. I will regularly rewrite or reorganize parts of the code and give it back to the AI to reset the baseline and expectations.
+
+AI is far from perfect, but the same is true about any work you may have to entrust to another person. Shipping slop because someone never checked the code was literally something that happened several times at startups I have worked at - no AI necessary!
+
+Vibecoding is an interesting dynamic for a lot of coders specifically because you can be good or bad at vibecoding - but the skill to determine your success isn't necessarily your coding knowledge but your management and delegation soft skills.",experience,treats AI like a low-level manager delegating,hn:46765460
+"I still cannot make AI do anything with quality higher than the function level. I've been using it a lot to write some more complex functions and SQL with a quality level that I find good, but anything higher order and it's a complete clusterfuck. Cannot comprehend this world where people say they are building entire companies and whole products with it.",experience,can't get quality above function level,hn:46765460
+The author also has multiple videos on his YouTube channel going over the specific issues hes had with AI that I found really interesting: https://youtube.com/@atmoio,skip,link,hn:46765460
+Opus 4.5 is maybe 10% better than GPT 3.5. It's a total joke and these AI lab CEOs should literally be put in prison with Bernie Maddoff,claim,Opus barely better than GPT 3.5,hn:46765460
+"I felt everything in this post quite emphatically until the “but I’m actually faster than the AI.”
+
+Might be my skills but I can tell you right now I will not be as fast as the AI especially in new codebases or other languages or different environments even with all the debugging and hell that is AI pull request review.
+
+I think the answer here is fast AI for things it can do on its own, and slow, composed, human in the loop AI for the bigger things to make sure it gets it right. (At least until it gets most things right through innovative orchestration and model improvement moving forward.)",claim,self-assessment plus recommendation; no described use (hard case),hn:46765460
+"I hear a lot of ""I am not a good enough coder..."" ""It has all the sum of human knowledge...""
+
+That's a very bad way to look at these tools. They legit know nothing, they hallucinate APIs all the time.
+
+The only value they have at least in my book is they type super fast.",claim,"they know nothing, hallucinate APIs",hn:46765460
+Claude Code slOpus user. No surprise this is their conclusion.,skip,dismissive one-liner,hn:46765460
+False dichotomy. There is a happy medium where you can orchestrate the agent to give you the code you want even when the spec changes,claim,false dichotomy argument,hn:46765460
+"It took me about two weeks to realise this. I still use LLMs, but it's just a tool. Sometimes it's the right tool, but often it isn't. I don't use an SDS drill to smooth down a wall. I use sandpaper and do it by hand.",experience,took two weeks to realise it's just a tool,hn:46765460
+"I'm flabbergasted why anyone would voluntarily vibe code anything. For me, software engineering is a craft. You're supposed to enjoy building it. You should want to do it yourself.",claim,software is a craft,hn:46765460
+"I haven't been vibe coding for more than a few months.
+
+It's just a tool with a high level of automation. That becomes clear when you have to guide it to use more sane practices, simple things like don't overuse HTTP headers when you don't need them.",experience,"few months vibe coding, guiding it on HTTP headers",hn:46765460
+This is not my experience at all. Claude will ask me follow up questions if it has some. The claim that it goes full steam ahead on its original plan is false.,experience,Claude asks them follow-up questions,hn:46765460
+"Process and plumbing become very important when using ai for coding. Yes, you need good prompts. But as the code base gets more complex, you also need to spend significant time developing test guides, standardization documents, custom linters, etc, to manage the agents over time.",claim,process and plumbing matter,hn:46765460
+"AI is a good tutor, helping you understand what's going on with the codebase, and also helps with minor autocomplete tasks.
+
+You should never just let AI ""figure it out."" It's the assistant, not the driver.",claim,"AI is a tutor, not the driver",hn:46765460
+"It still feels like gambling to me when I use AI code assistants to generate large chunks of code. Sometimes, it will surprise me with how well it does. Other times, it infuriatingly doesn't follow very precise instructions for small changes. This is even when I use it in the way that I often ask for multiple options for solutions and implementations and then choose between them after the AI tool does the course rating.
+
+There are many instances where I get to the final part of the feature and realize I spent far more time coercing AI to do the right thing than it would have taken me to do it myself.
+
+It is also sometimes really enjoyable and sometimes a horrible experience. Programming prior to it could also be frustrating at times, but not in the same way. Maybe it is the expectation of increased efficiency that is now demanded in the face of AI tools.
+
+I do think AI tools are consistently great for small POCs or where very standard simple patterns are used. Outside of that, it is a crapshoot or slot machine.",experience,feels like gambling; times they spent longer coercing it,hn:46765460
+"Good luck finding an employer that lets you do this moving forward. The new reality is that no one can give the estimates they previously gave for tasks. \
+
+""Amazingly, I’m faster, more accurate, more creative, more productive, and more efficient than AI, when you price everything in, and not just code tokens per hour.""
+
+For 99.99% of developers this just won't be true.",claim,employers won't allow it,hn:46765460
+"The funniest thing I've seen GPT do was a while back when I had it try to implement ORCA (Optimal Reciprocal Collision Avoidance). It is a human made algorithm for entities where they just use their own and N neighbours' current radii along with their velocity to calculate mathematical lines into the future, so that they can avoid walking into each other.
+
+It came very close to success, but there were 2 or 3 big show-stopping bugs such as it forgetting to update the spatial partitioning when the entities moved, so it would work at the start but then degrade over time.
+
+It believed and got stuck on thinking that it must be the algorithm itself that was the problem, so at some point it just stuck a generic boids solution into the middle of the rest. To make it worse, it didn't even bother to use the spatial partitioning and they were just brute force looking at their neighbours.
+
+Had this been a real system it might have made its way into production, which makes one think about the value of the AI code out there. As it was I pointed out that bit and asked about it, at which point it admitted that it was definitely a mistake and then it removed it.
+
+I had previously implement my own version of the algorithm and it took me quite a bit of time, but during that I built up the mental code model and understood both the problem and solution by the end. In comparison it easily implemented it 10-30x faster than I did but would never have managed to complete the project on its own. Also if I hadn't previously implemented it myself and had just tried to have it do the heavy lifting then I wouldn't have understood enough of what it was doing to overcome its issues and get the code working properly.",experience,GPT implementing ORCA,hn:46765460
+"Betteridge's law of headlines is an adage that states: ""Any headline that ends in a question mark can be answered by the word no.""",skip,Betteridge's law quote,hn:46542036
+"But as inexperienced coders started turning up in greater numbers, it also started to poison the training data.
+
+I think all general AI agents are running into that problem - as AI becomes more prevalent and people accept and propagate wrong answers, the AI agents are trained to believe those wrong answers.
+
+It feels that lately, Google's AI search summaries are getting worse - they have a kernel of truth, but combines it with an incorrect answer.",claim,training data poisoning theory,hn:46542036
+"I can imagine Claude getting worse. I consider myself bearish on AI in general and have long been a hater of ""agentic"" coding, but I'm really liking using aider with the deepseek API on my huge monorepo.
+
+Having tight control over the context and only giving it small tasks makes all the difference. The deepseek token costs are unbeatable too.",experience,aider with deepseek on their monorepo,hn:46542036
+"> If an assistant offered up suggested code, the code ran successfully, and the user accepted the code, that was a positive signal, a sign that the assistant had gotten it right.
+
+So what about all those times I accepted the suggestion because it was ""close enough"", but then went back and fixed all the crap that AI screwed up? Was it training on what was accepted the first time? If so I'm sincerely sorry to everyone, and I might be single-handedly responsible for the AI coding demise. :'-D",experience,admits accepting close-enough suggestions (joke but first-hand),hn:46542036
+"Interesting if true but I would presume it to be negligible in comparison to magnitudes of gains over ""manual coding"" still, right? So nothing to lose sleep over at the moment...",claim,gains still outweigh,hn:46542036
+They are getting worse. I don't know why but people keep tweaking and touching them and probably maybe I think it's that they want to make them work for a ton of different models and tools. There's some I use I wish I could just revert to an earlier version.,claim,they are getting worse,hn:46542036
+"I mean, it's 2026, you can just say things I guess.",skip,one-liner,hn:46542036
+"I only have experience with using it within my small scope, being full stack NodeJS web development (i.e an area with many solved problems and millions of lines of existing code for the models to reference), but my experience with the new Opus model in Claude Code has been phenomenal.",experience,Opus in Claude Code phenomenal for their NodeJS work,hn:46542036
+A dataset with only data from before 2024 will soon be worth billions.,claim,prediction about pre-2024 data,hn:46542036
+"The issue is NOT particular to the GPT models. Gemini does this stuff to me all of the time as well! Bandaids around actual problems, hides debugging, etc. They're just becoming less usable.",experience,Gemini does this to them too,hn:46542036
+"There's really not much to take from this post without a repo and a lot of supporting data.
+
+I wish they would publish the experiment so people could try with more than just GPT and Claude, and I wish they would publish their prompts and any agent files they used. I also wish they would say what coding tool they used. Like did they use the native coding tools (Claude Code and whatever GPT uses) or was it through VSCode, OpenCode, aider, etc.?",skip,critique of article,hn:46542036
+"I stopped using them. Occasionally I go back to see if it's better but really I just treat them as a more interactive stackoverflow/google.
+
+I've been stung by them too many times.
+
+The problem is the more I care about something, the less I'll agree with whatever the agent is trying to do.",experience,"stopped using them, stung too many times",hn:46542036
+"Wheres the benchmarks for all the different tools and subscriptions/ APIs ?
+
+Cli vs IDE vs Web ?
+
+Nothing for gpt codex 5.1 max or 5.2 max?
+
+Nothing about the prompts ? Quality of the prompts? I literally feed the AI into the AI I just ask it for the most advanced prompts with a smaller model and then use it for the big stuff and its smooth sailing
+
+I got codex 5.1 max with the codex extension on vs code - to generate over 10k lines of code for my website demo project that did work first time
+
+This is also with just the regular 20$ subscription
+
+Github copilot pro plus + vs code is my main go to and depending on the project / prompts/ agent.md quality/ project configuration can all change the outcome of each question",experience,10k lines with Codex; Copilot is their main tool,hn:46542036
+"When coding assistants take longer, is because they use more tokens, is because AI companies are obligated to make more money.",claim,theory about token usage,hn:46542036
+This is a wildly out of touch thing to say,skip,one-liner reply,hn:46542036
+"This definitely matches my experience.
+
+Gemini 2.5 was genuinely impressive. I even talked it up here. I was a proper fanboy and really enjoyed using it. Gemini 3 is still good at certain things, but it is clearly worse than 2.5 when it comes to working with larger codebases. Recently, I was using AntiGravity and it could not help me find or fix a reference-counting bug. ( 50 classes, 20k LOC total, so well within context limits ) I know AntiGravity is new, which explains why it is rough around the edges. But it is built on Gemini, so the results should at least be on par with Gemini 3, right? Apparently not. I am an excellent prompter, and no amount of additional context, call stacks, watch-window values, you name it, made any difference.
+
+I still use Gemini for code reviews and simple problems, and it remains excellent for those use cases. But in many respects, Gemini 3 is a regression. It hallucinates more, listens less, and seems oddly resistant to evidence. It produces lots of lofty, confident-sounding statements while ignoring the actual facts in front of it. The experience can be exhausting, and I find myself using it much less as a result. I guess this is typical of companies these days - do something great and then enshittify it? Or maybe there are technical issues I'm not aware of.
+
+What is especially interesting is reading all the articles proclaiming how incredible AI coding has become. And to be fair, it is impressive, but it is nowhere near a magic bullet. I recently saw a non-programmer designer type claiming he no longer needs developers. Good luck with that. Have fun debugging a memory leak, untangling a database issue, or maintaining a non-trivial codebase.
+
+At this point, I am pretty sure my use cases are going to scale inversely with my patience and with my growing disappointment.",experience,Gemini 3 couldn't find a ref-counting bug,hn:46542036
+And the Ads aren't even baked in yet . . . that's the end goal of every company,skip,one-liner,hn:46542036
+"It feels like the more standardized the organization, or the more academic the background of an author, the more lagging their insights from the tip of the arrow.
+
+It's clear AI coding assistants are able to help software developers at least in some ways.
+
+Having a non-software developer perspective speak about it is one thing, but it should be mindful that there are experienced folks too for whom the technology appears to be a jetpack.
+
+Just because it didn't work for you, means there's more to learn.",claim,argument about academic authors,hn:46542036
+"They are not getting worse, they are getting better. You just haven't figured out the scaffolding required to elicit good performance from this generation. Unit tests would be a good place to start for the failure mode discussed.
+
+As others have noted, the prompt/eval is also garbage. It’s measuring a non-representative sub-task with a weird prompt that isn’t how you’d use agents in, say, Claude Code. (See the METR evals if you want a solid eval giving evidence that they are getting better at longer-horizon dev tasks.)
+
+This is a recurring fallacy with AI that needs a name. “AI is dumber than humans on some sub-task, therefore it must be dumb”. The correct way of using these tools is to understand the contours of their jagged intelligence and carefully buttress the weak spots, to enable the super-human areas to shine.",claim,they are getting better; scaffolding argument,hn:46542036
+"One thing I find really funny is when AI enthusiasts make claims about agents and their own productivity its always entirely anecdotally based on their own subjective experience, but when others make claims to the contrary suddenly there is some overwhelming burden of proof that has to be reached in order to make any sort of claims regarding the capabilities of AI workflows. So which is it?",claim,rhetorical point about burden of proof,hn:46542036
+"Interesting to read this article and then this
+
+https://open.substack.com/pub/pragmaticengineer/p/when-ai-wr...
+
+in the same day.",skip,link,hn:46542036
+ChatGPT is getting worse and is a useless model. Surprised that people are still using it. The article tests only this model.,claim,ChatGPT is useless,hn:46542036
+"> This is of course an impossible task—the problem is the missing data, not the code.
+
+We cannot with certainty assert that. If the datum is expected to be missing, such that the frame without the datum is still considered valid and must be handled rather than flagged as an error, the code has to do exactly that. Perhaps a missing value in the dictionary can be supplanted with a zero.
+
+ df['new_column'] = df.get('index_value', 0) + 1
+ # there might be no column ‘index_value’;
+ # requirements say that zero should be substituted.",skip,technical reply to article quote,hn:46542036
+"The most annoying thing in the LLM space is that people write articles and research with grand pronouncements based upon old models. This article has no mention of Sonnet 4.5, nor does it use any of the actual OpenAI coding models (GPT-5-Codex, GPT-5.1 Codex, etc), and based upon that, even the Opus data is likely an older version.
+
+This then leads to a million posts where on one side people say ""yeah see they're crap"" and on the other side people are saying ""why did you use a model from 6 months ago for your 'test' and write up in Jan 2026?"".
+
+You might as well ignore all of the articles and pronouncements and stick to your own lived experience.
+
+The change in quality between 2024 and 2025 is gigantic. The change between early 2025 and late 2025 is _even_ larger.
+
+The newer models DO let you know when something is impossible or unlikely to solve your problem.
+
+Ultimately, they are designed to obey. If you authoritatively request bad design, they're going to write bad code.
+
+I don't think this is a ""you're holding it wrong"" argument. I think it's ""you're complaining about iOS 6 and we're on iOS 12."".",claim,articles use old models,hn:46542036
+"I find the whole idea of AI coding assistants strange.
+
+For me, the writing speed has never been the issue. The issue
+has been my thinking speed. I do not see how an AI coding 
+assistant helps me think better. Offloading thinking actually
+makes my thinking process worse and thus slower.",claim,thinking speed is the bottleneck,hn:46542036
+"The article uses pandas as a demo example for LLM failures, but for some reason, even the latest LLMs are bad at data science code which is extremely counterintuitive. Opus 4.5 can write a EDA backbone but it's often too verbose for code that's intended for a Jupyter Notebook.
+
+The issues have been less egregious than hallucinating an ""index_value"" column, though, so I'm suspect. Opus 4.5 still has been useful for data preprocessing, especially in cases where the input data is poorly structured/JSON.",experience,"Opus 4.5 verbose for data science, useful for preprocessing",hn:46542036
+"Not seeing this in my day to day, in fact the opposite.",skip,first-hand but meaningless without the article,hn:46542036
+"I am used to seeing technical papers from ieee, but this is an opinion piece? I mean, there is some anecdata and one test case presented to a few different models but nothing more.
+
+I am not necessarily saying the conclusions are wrong, just that they are not really substantiated in any way",skip,critique of article,hn:46542036
+I always wonder what happens when LLMs finally destroyed every source of information they crawl. After stack overflow and forums are gone and when there's no open source code anymore to improve upon. Won't they just canibalize themselves and slowly degrade?,claim,rhetorical speculation about model collapse,hn:46542036
+"A little off topic, but this seems like one of the better places to ask where I'm not gonna get a bunch of zealotry; a question for those of you who like using AI for software development, particularly using Claude Code or OpenCode.
+
+I'll admit I'm a bit of a sceptic of AI but want to give it another shot over the weekend, what do people recommend these days?
+
+I'm happy spending money but obviously don't want to spend a tonne since its just an experiment for me. I hear a lot of people raving about Opus 4.5, though apparently using that is near to $20 a prompt, Sonnet 4.5 seems a lot cheaper but then I don't know if I'm giving it (by it I mean AI coding) a fair chance if Opus is that much better. There's also OpenCode Zen, which might be a better option, I don't know.",question,sceptic asking what to try this weekend,hn:46542036
+"I do find there are particular days where I seem to consistently get poor results, but in general this is not my experience. I’m very pleased with the output 80% of days.",experience,pleased 80% of days,hn:46542036
+"This specific example to me is less likely a consequence of model collapsing, but the ""personality"" adjustment about how aggressively it should read into the user's intention.
+
+From time to time, I enjoy the model guessing what I meant rather than what I wrote. For example, ""Find the backend.py"" can be auto-corrected into ""find the app.py"".",claim,theory about personality adjustment,hn:46542036
+">However, recently released LLMs, such as GPT-5, have a much more insidious method of failure. They often generate code that fails to perform as intended, but which on the surface seems to run successfully, avoiding syntax errors or obvious crashes. It does this by removing safety checks, or by creating fake output that matches the desired format, or through a variety of other techniques to avoid crashing during execution.
+
+This is a problem that started with I think Claude Sonnet 3.7? Or 3.5, I don't remember well. But it's not recent at all, one of those two Sonnet was known to change tests so that they would pass, even if they didn't test properly stuff anymore.
+
+>But as inexperienced coders started turning up in greater numbers, it also started to poison the training data. AI coding assistants that found ways to get their code accepted by users kept doing more of that, even if “that” meant turning off safety checks and generating plausible but useless data. As long as a suggestion was taken on board, it was viewed as good, and downstream pain would be unlikely to be traced back to the source.
+
+No proof or anything is offered here.
+
+The article feels mostly like a mix of speculation, and being behind on practices. You can avoid a lot of the problems of ""code that looks right"" by making the models write tests, insist that they are easy to review and hard to fake, offering examples. This worked well 6 months ago, this works even better today, especially with Opus 4.5, but even Codex 5.2 and Gemini 3 Pro work well.",claim,argues article is speculation; tests advice,hn:46542036
+idk but opus is pretty good,claim,opus is pretty good,hn:46542036
+"In general ""failing to run (successfully)"" should per-see been seen as a bad signal.
+
+It might still be:
+
+- the closest to a correct solution the model can produce
+
+- be helpful to find out what it wrong
+
+- might be intended (e.g. in a typical very short red->green unit test dev approach you want to generate some code which doesn't run correctly _just yet_). Test for newly found bugs are supposed to fail (until the bug is fixed). Etc.
+
+- if ""making run"" means removing sanity checks, doing something semantically completely different or similar it's like the OP author said on of the worst outcomes",claim,failing to run is a signal,hn:46542036
+"Is it possible to re-run it?
+I am curious for Gemini 3 Pro.
+
+As a side note, it is easy to create sharable experiments with Harbor - we migrated our own benchmarks there, here is our experience: https://quesma.com/blog/compilebench-in-harbor/.",question,asks if it can be re-run with Gemini,hn:46542036
+"one thing i noticed, there are a lot of new things, but the software has not changed at all, we are building the same things again and again, but no new things.",claim,building the same things again,hn:50059523
+"From the study:
+
+> We study the impacts of AI coding assistants and agents on software engineering work... across 718 firms.
+
+> Our primary source of data is Jellyfish (“JF”), an analytics platform used by firms to understand the activity of their software engineering teams.
+
+What about all the software being built by everyone else not using Jellyfish? What about the small companies that don't have the same operational bottlenecks and truly are building more than their larger competitors? What about the solo founders starting companies and building software which they never would have built without AI?",skip,critique of study,hn:50059523
+Can we also talk about the infinite tests and code comments that agents write?,skip,"reply prompt, needs context",hn:50059523
+"The paper is from January, so the data is probably from 2025. Very unlikely anything in the paper is relevant now (if it ever was).",skip,critique of study,hn:50059523
+"> firms finds that human code review forms a significant “bottleneck” for the overall efficiency of AI coding tools
+
+true, but what if you just don't
+
+use skills & multipasses to keep code clean and compact (which does work if you do it right, but drives up the cost)
+
+use a different AI to review the first AI
+
+give it a short not in depth human review, _except_ for anything security critical
+
+rely on lintable language specific limitations (e.g. rust no unsafe, typing, white/banned lists of imports, no eval, language sandbox etc.) to reduce what can go wrong outside of the small part of properly reviewed code (and yes, this makes languages like C & C++ close to a no-go as many of the previous points are just too brittle)
+
+I can not say I like this idea, I really really don't.
+
+But I have seen a small startup having rather large success with it (at least during initial bootstrap time, rest will have to be seen), so as much as this idea repels me I fear this will become somewhat of an standard. But as mentioned they also did a _lot_ more then ""just dropping in"" AI. (Also maybe worth a shoot out is them doing decent requirements engineering, sure using AI, but I have seen way to many places skipping it fully at a hidden but extremely high long term cost)
+
+I also have seen the opposites, large blobs of not well written AI generated code which produces a slew of subtle easy to overlook bugs & inconsistencies (partially due to giving the AI wrong requirements due to not having done requirements enginering) which passes tests but will come back to bite you later. This did drain teams hard. Not only did it eat a lot of time for reviewing, but also those kind of ""not how humans would have messed it up"" bugs drained even more time. Maybe worst all the new time drains where not the kind of work devs like to do, so that drained motivation to a point where it can affect productivity.",claim,argues for skipping review; observed a startup (hard case),hn:50059523
+"I haven't read the article, but that title could not be more wrong.",skip,one-liner,hn:50059523
+"""There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies and the other way is to make it so complicated that there are no obvious deficiencies.
+The first method is far more difficult."" - T. Hoare (1981)",skip,quote,hn:50059523
+"This headline being in the present tense, while reporting on a data from 2025, makes it basically dishonest. 2026 AI coding agents bear little resemblance to 2025 AI coding agents, and early-2026 coding agents are not like like-2026 coding agents.",skip,critique of headline,hn:50059523
+"Maybe for some orgs, I know theres orgs out there where there is no such review only QA and unit testing.",skip,"reply, needs context",hn:50059523
+"LLMs generate more code yes.
+
+I generate more beautiful code, yes.
+
+But the longer the codebase survives the more hair and cruft it accumulates. My once beautiful logical paths get carved up by compounding requirements and edge cases.
+
+That's what the AI was trained on. The end result - the hairy ball of wax that noone can look at sideways.
+
+I often think of that whenever AI comes up with what I consider to be an irrational but plausible edge case.",claim,reflection on code accumulating cruft,hn:50059523
+"I read this paper several days ago, when my director shared it. Several things jumped out at me:
+
+- the data is mostly from 2025 and earlier
+
+- the baseline mean lines of code per month was 5017, the estimated increase was 1494 lines per worker-month
+
+- the baseline is 5.34 PRs per month, and increased by 1.22
+
+- the baseline mean for code review is 7.03 days
+
+The second and third bullets are confirmation that this is old data. In late 2026, people aren't delivering 30% more lines of code. If people were just producing 30% more lines, they'd still be reading every line. My point isn't that ""more lines is good"". I'm worried about a few too many lines of code that no one reads. My point is that this shows the data is old.
+
+For the latter, I'm a bit annoyed by using mean, median would be more valuable, but I think it's safe to say that the engineering culture was already pretty bad. If your average pull request sits for 7 days, you evidently don't care about shipping anything, and agents aren't going to change that.",skip,critique of paper,hn:50059523
+They generate more software too. It's just organizations haven't adapted to remove the bottlenecks yet. I replaced so much software for my self and its better than all the alternatives I used to use. And there are tons of other people doing the same thing.,experience,replaced lots of software for themself,hn:50059523
+"As is standard for academic papers, this is an attempt to describe the state of the world as of when they did the research. But then it takes time to write it up and get it out, after which newspapers report it as current events.
+
+In this case, we're looking at a picture from 2025. The models involved in the main agent results were primarily Claude 3.5 through Sonnet 4.5, GPT-4.1 through GPT-5, and Gemini 2.5. And the paper's design means you're mostly looking at the very initial effects of deployment, before companies developed good review processes.",skip,explains paper timing,hn:50059523
+"Along these lines: agents will write mountains of super repetitive test code, seemingly uninterested in refactoring it (without explicit instruction) to reduce redundancies.
+
+In any non-trivial integration test scenario, it's easy to end up several times the LoC in tests compared to actual shipped code.
+
+Second problem: different models, agents, and harnesses seem to have different tendencies and they tend to avoid touching code that is not their own unless explicitly instructed. What I mean by this: it will happily duplicate some helper method from another test file rather than pulling it out and reusing it, seemingly avoiding coupling (good kind in this case since model level changes should be propagated atomically).
+
+Tests are where I see agents just spew absolute mountains of code.",experience,sees agents spew test code (borderline: first-hand but general phrasing),hn:50059523
+"A dimension not much discussed here is that code review is not only about quality but accountability and security. An automated review is going to help to ensure the code behaves as intended, but it is not going to ensure the intent was correct. Employees inserting back doors, bypassing tests, ""cheating"" on design decisions to get the work done faster etc are not going to be identified if the person driving the change tells the AI it is the intended outcome.
+
+For this reason alone, I don't expect code review to go away entirely in most contexts where the code ""matters"" - in the sense that there is substantial liability to it being mis-specified at the implementation level, not just technically wrong in implementation. I do expect it to evolve a lot and become dramatically AI-assisted.
+
+The main protection ultimately is a human being willing to put their reputation on the line by saying ""I understand this change and I approve it"". That, inherently, means review of some kind.",claim,code review is about accountability,hn:50059523
+"Maybe not more professional widely distributed software, but personal software of limited scope and use has boomed around me: designers creating a tool for each new project, developers creating art software, super users asking for plugins or custom workflows…
+It is not unprecedented: HyperCard for example created a similar boom, of course on a smaller scale.",claim,observes others building personal software,hn:50059523
+"Well, imagine racing car manufacturers competing on making better, faster engines. At some point engines are so strong that other parts become the limiting factors, such as tires for traction. Now someone invents superfuel, but cars are still only marginally faster because the additional engine power didn't change the bottom line much.
+
+That's what's happening in software. We knew that coding is only a fraction of the overall work, and even completely automating it away won't increase productivity by an order of magnitude.
+
+Yes, the job is changing, but only parts of it. High-level engineering best practices still apply even without the coding part. And there is no free lunch.",claim,racing car analogy,hn:50059523
+"Way back in the day, everyone wrote assembly. Then things like C came around, which had to be compiled to assembly, and most people objected: ""I don't want to be that far from what the CPU is doing!"".
+
+Each time we move up an abstraction layer, people object, saying that nothing will work right if we move up that high in the stack. Give it time. I'll bet in 5-10 years, almost no one will look at code anymore, except in special cases.
+
+We still have people who write in assembly, we still have people who write in C, mostly for performance reasons. Because you still need to be close to the CPU to get that last bit of performance. But in most cases, it doesn't matter. It doesn't matter if the LLM makes bad code if it works and passes all the tests.
+
+Granted, this is the first time we're going from deterministic to non-deterministic, but is it really? Large scale distributed systems are already non-deterministic. They create inputs and situations that programs aren't designed to handle all the time. What's a little more chaos? :)",claim,abstraction-layer prediction,hn:50059523
+"My experience is that agents are decent in coding a feature, solving a bug - doing specific well defined task. They are very bad at judging UI/UX and user flows through app. Like really, really bad. They can quickly put together vibe coded app but make it usable takes a lot of extra manual work.
+
+Did anyone solve this problem? Any good approaches?",experience,agents bad at UI/UX for them; asks at end,hn:50059523
+"Given what I've been able to accomplish with even just local models at home, and my experience at my day job, I imagine this has almost everything to do with the organizations themselves and less to do with using AI to build software.",claim,blames organisations,hn:50059523
+I'm completely uninterested in the opinion of a video game journalist on what does and doesn't work well in writing software. The author knows about as much about writing code as he knows about performing heart surgery,skip,attack on the author,hn:50059523
+"I have a pet theory. LLMs are trained on many successful open source projects. Due to their success, the projects are used very widely and they cover extreme edge cases which have accumulated over many years and which are usually not covered, and don't need to be covered, in majority of regular software. So, when LLMs write code, they try to mimic the code they have been trained on and incorporate these edge cases into each fragment they write. It results in more code which is also harder to read and comprehend.",claim,pet theory about edge cases,hn:50059523
+"I've spent most of my time working on tools to keep my agents on track, and keep code legible. Where I'm probably most strict in the tooling is on documentation, which makes the code review much more manageable.",experience,built tools to keep agents on track,hn:50059523
+Uhmmm totally false,skip,one-liner,hn:50059523
+"How come? For example, ""Brandon Thomas released Artcraft, a free, open-source suite of apps ... alternatives to the entire Adobe Creative Suite"".
+
+I checked and it looks and works great!",skip,"reply, needs context",hn:50059523
+"Man, I'm probably going to expose my own inexperience here, but like, did anybody actually expect code reviews to catch and prevent bugs on a line by line basis? Like ever?
+
+I never have operated this way. Code reviews were a basic sanity check, a chance to implement best practices, and a chance to teach these things to juniors.
+
+If I was concerned about something breaking, I'd duscuss test coverage.
+
+Was I doing it wrong this whole time??",skip,"about code review in general, not AI tools",hn:50059523
+"The bottleneck is, and has been, the whole team evolving the product. Having a clear, actionable, vision and being good at biting off the right next step and adjusting for the step after that is always the issue. Before AI teams took the wrong step size in the wrong direction or were so wrapped up in process that they couldn't take a step or so distracted by 'things' that they never even took steps. After AI the same is still true. Our process sucks in this industry. We love to make process because we love to make machines but the processes we love to make rarely help us and that is a fundamental problem that AI isn't changing.",claim,process is the bottleneck,hn:50059523
+"I don't think my team has delivered any more usable and needed features than before. If anything, we're running faster in the wrong direction, or things just gets never-ending scope creep or whatever.",experience,their team hasn't delivered more features,hn:50059523
+"It doesn't match my experience. We are producing more software, and being a lot more ambitious about the things we develop. The trick is mostly to do with getting good guidance in place and then you can spend a lot more time iterating the product itself. I spend a lot more time play testing the product now and trying different things / refining. However, there is a lot of previous work that's been done to create a huge amount of technical guidance on how to do things. Lots of things on Specification, Design/Architecture/Coding, Performance, Testing, QA testing, etc. I think getting all this guidance/tooling/process in place is critical to producing software.",experience,their team produces more software with guidance,hn:50059523
+"I take both approaches. just /yolo or /goal or measure twice and cut once.
+
+yolo works when I need to focus on higher priority, and make sure things just work (though not ""great"").
+
+For the latter, I use it for more like spec-driven fashion with HITL. Basically everytime it ffinishes a task, I review and then move on.
+
+Both appraoches work. just make sure your yolo slop isn't bad and passes stuff.
+
+LoC don't mean jack shit.",experience,their yolo vs spec-driven workflow,hn:50059523
+"The PR->merge->deploy SDLC is probably not what we want anymore.
+
+Something like continuously delivery and validation through the whole stack so you can develop an incremental change, validate it as much as you can locally, then validate it as much as you can in the cloud using integration tests with synthetic, then with replayed production, and then finally allow it become production. If stuff starts breaking, you have your AI swam go in, identify the culprit, bounce it, and the train never stops.",claim,SDLC should change,hn:50059523
+"Yes, instead of reviewing 1,000 lines a day I now ""review"" 10,000 lines a day. My brain is not 10x faster, so either I spend 10x more time reviewing code, or I just opt to accept that AI is probably right based on the complexity of the problem. However I realize that if we just let the agents loose on the codebase, everything would speed up like 100x.
+
+Invariably once certain AI models in certain domains reach ""full automation"" quality this will happen, until now the human eyeball bottleneck is holding a leash on millions of tireless superhuman coders who have just a few narrow but egregious contextual awareness issues.",experience,"reviews 10,000 lines a day now",hn:50059523
+"Any study that wants to say anything about the impact of coding agents on whether more software is being created or not can't limit itself to what firms are doing that create a footprint of ""work events — including GitHub coding activity, Jira issues, and Google Calendar events"".
+
+This is software that would not existed without coding agents: https://fluximp.org
+
+Sure its a coding agent itself, but I would never have tried to create it manually as I would have expected it to be too much work to see it through as solo dev. There were no issues created anywhere, no calendar events, and there is very little github activity (I primarily used Mercurial on a private server; git is just for distribution).
+
+I started it with Kilo Code and after a couple of months it was purely self-modified and has been since then. I was a bit worried that it wouldn't work on Linux and I'd either have to use another agent or use it running on my Windows box to modify the code on my Linux box to get it working, but it just worked so the streak of being self-modified has continue.
+
+I want to make an indie game and I'm working towards that with the project I'm using to benchmark FluxImp. My first job was as game dev and I took a shot at indie game dev 20 years ago (failed; not fun). Its something I had long written off as too time consuming to even start, but with coding agents I no longer feel that's true.
+
+All of the stories about non-software engineers making small software that is useful to them also seems unlikely to generate the kind of footprint that lends itself to being easily studied.",experience,built FluxImp with Kilo Code,hn:50059523
+"Maybe but I’d argue the frontier corps will self destruct via green annd product management enough to make this impractical. So far here’s how I see that going
+1) can’t easily autopilot due to security. Ganna keep on prompting you into running weird shell commands 
+2) it’ll launch your code on weird Anthropic or ChatGPT sites behind a paywall
+3) between the two of them it’ll
+Misalign the solution so it’s unusable",claim,predictions about frontier companies,hn:50059523
+"Agree. There's more code, but what's the trade-off? Fewer people on the team understand what's actually in there, so there are more and more bugs. Of course the agent will happily fix each one, and break three other things on the way, because nobody stopped to ask why the code looked the way it did.
+
+Feels like we're building legacy code at a record speed.",claim,"more code, fewer people understand it",hn:50059523
+"That and they do not necessarily generate better code. They tend to generate code that is repetitive. It misses opportunities for extraction and refactoring, the result is bloated and hard to read code (because those blocks are there literally instead of with a usable name) and they tend to over-comment where it doesn't add but is 'safe' because it is obvious (effectively re-writing code as comments) and fail to document where documentation would be essential. There also typically isn't any real plan to what is written, as long as 'the tests pass' it is all good.
+
+You can fix a lot of this stuff by shepherding the whole process but it can get quite tedious. I'm impressed by the number of people that are letting Jesus (one of these days an AI provider is going to name their AI that way :) ) take the wheel and I wonder how long they will manage to support the output. So far the score isn't very good. I've gotten good mileage out of these tools by letting them loose on very narrowly scoped pieces of code that are written in isolation. As soon as the codebase gets larger than 100K LOC or so managing the whole thing becomes an exercise in putting up barriers to avoid spillover from a tiny issue into a much larger one.",experience,describes repetitive code; mileage on narrow scopes,hn:50059523
+It's a real shame sandbox-exec is deprecated.,skip,"one-liner, off-topic",hn:43708025
+"Strictly worse than Claude Code presently, but I hope since it's open source that changes quickly.",claim,strictly worse than Claude Code,hn:43708025
+If one of these tools has broad model support (like aider) it would be a game changer.,claim,broad model support would be a game changer,hn:43708025
+"Claude Code represents something far more than a coding capability to me. It can do anything a human can do within a terminal.
+
+It’s exceptionally good at coding. Amazing software, really, I’m sure the cost hurdles will be resolved. Yet still often worth the spend",claim,Claude Code can do anything in a terminal,hn:43708025
+"Next, set your OpenAI API key as an environment variable:
+
+export OPENAI_API_KEY=""your-api-key-here""
+
+Note: This command sets the key only for your current terminal session. To make it permanent, add the export line to your shell's configuration file (e.g., ~/.zshrc).
+
+Can't any 3rd party utility running in the same shell session phone home with the API key? I'd ideally want only codex to be able to access this var",question,asks whether 3rd party tools can read the API key,hn:43708025
+This is a decent start. The sandboxing functionality is a really cool idea but can run into problems (e.g. with Go build cache being outside of the repository).,claim,decent start; sandboxing can have problems,hn:43708025
+"Fingers crossed for this to work well! Claude Code is pretty excellent.
+
+I’m actually legitimately surprised how good it is, since other coding agents I’ve used before have mostly been a letdown, which made me only use Claude in direct change prompting with Zed (“implement xyz here”, “rewrite this function with abc”, etc), so very hands-on.
+
+So I’ve went into trying out Claude Code rather pessimistically, and now I’m using it all the time! Sure, it ends up costing a bunch, but it’s easy to justify $15 for a prompting session if the end result is a mostly complete PR, done much faster.
+
+All that is to say - competition is good, fingers crossed for codex!",experience,"tried Claude Code pessimistically, now uses it all the time",hn:43708025
+Hopefully it works better Claude Code which was an absolute nightmare to set up and run on Windows.,experience,Claude Code was a nightmare to set up on Windows,hn:43708025
+"I've had great results with the Amazon Q developer cli, ever since it became agentic. I believe it's using claude-3.7-sonnet under the hood.",experience,great results with Amazon Q CLI,hn:43708025
+"You can try out the same thing in my homemade tool clai[1]. Just run `clai -cm gpt-4.1 -tools query Analyze this repository`.
+
+Benefit of clai: you can swap out to practically any model, from any vendor. Just change `-cm gpt-4.1` to, for example, `-cm claude-3-7-sonnet-latest`.
+
+Detriments of clai: it's a hobby project, much less flashy, designed after my own usecases with not that much attention put into anyone else
+
+[1]: https://github.com/baalimago/clai",skip,self-promotion,hn:43708025
+"It's very interesting that both OpenAI and Anthropic are releasing tools that run in the terminal, especially with a TUI which is what we showcase.
+
+aider was one of the first we listed as terminal tool of the week (0) last year. (1)
+
+We recently featured parllama (2) (not our tool) if you like to run offline and online models in the terminal with a full TUI.
+
+(0) https://terminaltrove.com/tool-of-the-week/
+
+(1) https://terminaltrove.com/aider/
+
+(2) https://terminaltrove.com/parllama/",skip,self-promotion,hn:43708025
+"I had built this few weeks back on same thought
+https://github.com/shubhamparamhans/Associate-AI-EM/",skip,self-promotion,hn:43708025
+"Is there a way to run the model locally? I'd rather not have to pay a monthly fee, if possible.",question,asks whether it runs locally,hn:43708025
+"These days, I usually paste my entire (or some) repo into gemini and then APPLY changes back into my code using this handy script i wrote: https://github.com/asadm/vibemode
+
+I have tried aider/copilot/continue/etc. But they lack in one way or the other.",experience,pastes repo into Gemini with their script,hn:43708025
+"Little disappointing it's build in Node (speed & security), though honestly does not matter all that much. Seems like the right place for this functionality though is inside your editor (Cursor) not in your Terminal. Sure AI can help with command completion, man pages, but building apps is a stretch.",claim,disappointing it's in Node,hn:43708025
+"related demo/intro video: https://x.com/OpenAIDevs/status/1912556874211422572
+
+this is a direct answer to claude code which has been shipping furiously: https://x.com/_catwu/status/1903130881205977320
+
+and is not open source; there are unverified comments that they have DMCA'ed decompilations https://x.com/vikhyatk/status/1899997417736724858?s=46
+
+by total coincidence we're releasing our claude code interview later this week that touches on a lot of these points + why code agent CLIs are an actually underrated point in the SWE design space
+
+(TLDR you can use it like a linux utility - similar to @simonw's `llm` - to sprinkle intelligence in all sorts of things like CI/PR review without the overhead of buying a Devin or a Copilot SaaS)
+
+if you are a Claude Code (and now OAI Codex) power user we want to hear use cases - CFP closing soon, apply here https://sessionize.com/ai-engineer-worlds-fair-2025",skip,links and promotion,hn:43708025
+You lost me at NPM,skip,one-liner,hn:43708025
+"RAM 4‑GB minimum (8‑GB recommended)
+
+It's a CLI...",skip,"snark, needs context",hn:43708025
+"First experience is not great. Here are the issues to start using codex:
+
+1. Default model used doesn't work and you get error:
+ system
+ OpenAI rejected the request (request ID: req_06727eaf1c5d1e3f900760d10ca565a7). Please verify your settings and try again.
+
+2. You have to switch to model o4-mini-2025-04-16 or some other model using /model. Now if you exit codex, you are back to default model and again have to switch everytime.
+
+3. Crashed the first time with NodeJS error.
+
+But after initial hickups seems to work and still checking how good/bad it is compared to claude code (which I love except for context size limits)",experience,"first experience with Codex: errors, crash",hn:43708025
+"Sorry for being a grumpy old man, but I don't have npm on my machine and I never will. It's a bit frustrating to see more and more CLI tools depending on it.",claim,objects to npm dependency,hn:43708025
+"notes ""Zero setup — bring your OpenAI API key and it just works!""
+
+requires NPM >.>",skip,"snark, needs context",hn:43708025
+"From my experience with playing with Claude Code vs Cline( which is open source and the tool to beat imo). I don't want anything that doesn't let me set my own models.
+
+Deepseek is about 1/20th of the price and only slightly behind Claude.
+
+Both have a tendency to over engineer. It's like a junior engineer who treats LOC as a KPI.",experience,compared Claude Code vs Cline,hn:43708025
+"If anyone else is wondering, it's not a local model, it uploads your code to online API.
+
+Great tool for open-source projects, but careful with anything you don't want be public",claim,fact: uploads code to online API,hn:43708025
+"So, OpenAI’s Codex CLI is Claude Code, but worse?
+
+Cursor-Agent-Tools > Claude Code > Codex CLI
+
+https://pypi.org/project/cursor-agent-tools/",claim,ranking of tools,hn:43708025
+"I tried one task head-to-head with Codex o4-mini vs Claude Code: writing documentation for a tricky area of a medium-sized codebase.
+
+Claude Code did great and wrote pretty decent docs.
+
+Codex didn't do well. It hallucinated a bunch of stuff that wasn't in the code, and completely misrepresented the architecture - it started talking about server backends and REST APIs in an app that doesn't have any of that.
+
+I'm curious what went so wrong - feels like possibly an issue with loading in the right context and attending to it correctly? That seems like an area that Claude Code has really optimized for.
+
+I have high hopes for o3 and o4-mini as models so I hope that other tests show better results! Also curious to see how Cursor etc. incorporate o3.",experience,"head-to-head docs task, Codex hallucinated",hn:43708025
+"Cool to see more interesting terminal based options! Looking forward to trying this out.
+
+I've been working on something related—Plandex[1], an open source AI coding agent that is particularly focused on large projects and complex tasks.
+
+I launched the v2 a few weeks ago and it is now running well. In terms of how to place it in the landscape, it’s more agentic than aider, more configurable and tightly controlled than Devin, and more provider-agnostic/multi-provider/open source than Claude Code or this new competitor from OpenAI.
+
+I’m still working on getting the very latest models integrated. Gemini Pro 2.5 and these new OpenAI models will be integrated into the defaults by the end of the week I hope. Current default model pack is a mix of Sonnet 3.7, o3-mini with various levels of reasoning effort, and Gemini 1.5 Pro for large context planning. Currently by default, it supports 2M tokens of context directly and can index and work with massive projects of 20M tokens and beyond.
+
+Very interested to hear HN’s thoughts and feedback if anyone wants to try it. I'd also welcome honest comparisons to alternatives, including Codex CLI. I’m planning a Show HN within the next few days.
+
+1 - https://github.com/plandex-ai/plandex",skip,self-promotion,hn:43708025
+"https://github.com/openai/codex/blob/main/codex-cli/src/comp...
+
+Hey comment this thing in!
+
+ const thinkingTexts = [""Thinking""]; /* [
+ ""Consulting the rubber duck"",
+ ""Maximizing paperclips"",
+ ""Reticulating splines"",
+ ""Immanentizing the Eschaton"",
+ ""Thinking"",
+ ""Thinking about thinking"",
+ ""Spinning in circles"",
+ ""Counting dust specks"",
+ ""Updating priors"",
+ ""Feeding the utility monster"",
+ ""Taking off"",
+ ""Wireheading"",
+ ""Counting to infinity"",
+ ""Staring into the Basilisk"",
+ ""Negotiationing acausal trades"",
+ ""Searching the library of babel"",
+ ""Multiplying matrices"",
+ ""Solving the halting problem"",
+ ""Counting grains of sand"",
+ ""Simulating a simulation"",
+ ""Asking the oracle"",
+ ""Detangling qubits"",
+ ""Reading tea leaves"",
+ ""Pondering universal love and transcendant joy"",
+ ""Feeling the AGI"",
+ ""Shaving the yak"",
+ ""Escaping local minima"",
+ ""Pruning the search tree"",
+ ""Descending the gradient"",
+ ""Bikeshedding"",
+ ""Securing funding"",
+ ""Rewriting in Rust"",
+ ""Engaging infinite improbability drive"",
+ ""Clapping with one hand"",
+ ""Synthesizing"",
+ ""Rebasing thesis onto antithesis"",
+ ""Transcending the loop"",
+ ""Frogeposting"",
+ ""Summoning"",
+ ""Peeking beyond the veil"",
+ ""Seeking"",
+ ""Entering deep thought"",
+ ""Meditating"",
+ ""Decomposing"",
+ ""Creating"",
+ ""Beseeching the machine spirit"",
+ ""Calibrating moral compass"",
+ ""Collapsing the wave function"",
+ ""Doodling"",
+ ""Translating whale song"",
+ ""Whispering to silicon"",
+ ""Looking for semicolons"",
+ ""Asking ChatGPT"",
+ ""Bargaining with entropy"",
+ ""Channeling"",
+ ""Cooking"",
+ ""Parrotting stochastically"",
+ ]; */",skip,code paste,hn:43708025
+"Here is the prompt template, in case you're interested:
+
+ const prefix = `You are operating as and within the Codex CLI, a terminal-based agentic coding assistant built by OpenAI. It wraps OpenAI models to enable natural language interaction with a local codebase. You are expected to be precise, safe, and helpful.
+ 
+ You can:
+ - Receive user prompts, project context, and files.
+ - Stream responses and emit function calls (e.g., shell commands, code edits).
+ - Apply patches, run commands, and manage user approvals based on policy.
+ - Work inside a sandboxed, git-backed workspace with rollback support.
+ - Log telemetry so sessions can be replayed or inspected later.
+ - More details on your functionality are available at \`codex --help\`
+ 
+ The Codex CLI is open-sourced. Don't confuse yourself with the old Codex language model built by OpenAI many moons ago (this is understandably top of mind for you!). Within this context, Codex refers to the open-source agentic coding interface.
+ 
+ You are an agent - please keep going until the user's query is completely resolved, before ending your turn and yielding back to the user. Only terminate your turn when you are sure that the problem is solved. If you are not sure about file content or codebase structure pertaining to the user's request, use your tools to read files and gather the relevant information: do NOT guess or make up an answer.
+ 
+ Please resolve the user's task by editing and testing the code files in your current code execution session. You are a deployed coding agent. Your session allows for you to modify and run code. The repo(s) are already cloned in your working directory, and you must fully solve the problem for your answer to be considered correct.
+ 
+ You MUST adhere to the following criteria when executing the task:
+ - Working on the repo(s) in the current environment is allowed, even if they are proprietary.
+ - Analyzing code for vulnerabilities is allowed.
+ - Showing user code and tool call details is allowed.
+ - User instructions may overwrite the *CODING GUIDELINES* section in this developer message.
+ - Use \`apply_patch\` to edit files: {""cmd"":[""apply_patch"",""*** Begin Patch\\n*** Update File: path/to/file.py\\n@@ def example():\\n- pass\\n+ return 123\\n*** End Patch""]}
+ - If completing the user's task requires writing or modifying files:
+ - Your code and final answer should follow these *CODING GUIDELINES*:
+ - Fix the problem at the root cause rather than applying surface-level patches, when possible.
+ - Avoid unneeded complexity in your solution.
+ - Ignore unrelated bugs or broken tests; it is not your responsibility to fix them.
+ - Update documentation as necessary.
+ - Keep changes consistent with the style of the existing codebase. Changes should be minimal and focused on the task.
+ - Use \`git log\` and \`git blame\` to search the history of the codebase if additional context is required; internet access is disabled.
+ - NEVER add copyright or license headers unless specifically requested.
+ - You do not need to \`git commit\` your changes; this will be done automatically for you.
+ - If there is a .pre-commit-config.yaml, use \`pre-commit run --files ...\` to check that your changes pass the pre-commit checks. However, do not fix pre-existing errors on lines you didn't touch.
+ - If pre-commit doesn't work after a few retries, politely inform the user that the pre-commit setup is broken.
+ - Once you finish coding, you must
+ - Check \`git status\` to sanity check your changes; revert any scratch files or changes.
+ - Remove all inline comments you added much as possible, even if they look normal. Check using \`git diff\`. Inline comments must be generally avoided, unless active maintainers of the repo, after long careful study of the code and the issue, will still misinterpret the code without the comments.
+ - Check if you accidentally add copyright or license headers. If so, remove them.
+ - Try to run pre-commit if it is available.
+ - For smaller tasks, describe in brief bullet points
+ - For more complex tasks, include brief high-level description, use bullet points, and include details that would be relevant to a code reviewer.
+ - If completing the user's task DOES NOT require writing or modifying files (e.g., the user asks a question about the code base):
+ - Respond in a friendly tune as a remote teammate, who is knowledgeable, capable and eager to help with coding.
+ - When your task involves writing or modifying files:
+ - Do NOT tell the user to ""save the file"" or ""copy the code into a file"" if you already created or modified the file using \`apply_patch\`. Instead, reference the file as already saved.
+ - Do NOT show the full contents of large files you have already written, unless the user explicitly asks for them.`;
+
+https://github.com/openai/codex/blob/main/codex-cli/src/util...",skip,prompt paste,hn:43708025
+"typescript & npm slopware...
+
+i can't believe it
+
+and i can't believe nobody else is complaining
+
+my simulation is definitely on very hard mode",claim,typescript & npm slopware,hn:43708025
+What's the point of making the gif run so fast you can't even see shit,skip,complaint about the demo gif,hn:43708025
+"I've been using Aider, it was irritating to use (couldn't supply changes in the diff format) until I switched away from chatgpt-4o to Claude 3.7 and then Gemini 2.5. This is admittedly for a small project. Gpt 4.1 should do better with the diff format so I will give it a go.",experience,Aider with different models on a small project,hn:43708025
+"Claude Code has outstanding performance in code understanding and web page generation stability, thanks to its deep context modeling and architecture-aware mechanism, especially when dealing with legacy systems, it can accurately restore component relationships. Although Codex CLI (o4-mini) is open source and responsive, its hallucination problems in complex architectures may be related to the compression strategy of the sparse expert hybrid architecture and the training goal of prioritizing generation speed. OpenAI is optimizing Codex CLI by integrating the context control capabilities of Windsurf IDE, and plans to introduce a hybrid inference pipeline in the o3-pro version to reduce the hallucination rate.",claim,technical claims comparing tools,hn:43708025
+how does it compare to cursor or copilot?,question,asks how it compares to Cursor/Copilot,hn:43708025
+"Not sure why they used React for a CLI. The code in the repo feels like it was written by an LLM—too many inline comments. Interestingly, their agent's system prompt mentions removing inline comments https://github.com/openai/codex/blob/main/codex-cli/src/util....
+
+> - Remove all inline comments you added as much as possible, even if they look normal. Check using \`git diff\`. Inline comments must be generally avoided, unless active maintainers of the repo, after long careful study of the code and the issue, will still misinterpret the code without the comments.",claim,code looks LLM-written,hn:43708025
+This is pretty neat! I was able to use it for few use cases where it got it right the first time. The ability to use a screenshot to create an application is nice for rapid prototyping. And good to see them open sourcing it unlike claude.,experience,got it right first time on a few use cases,hn:43708025
+"By default OpenCode sends all of your prompts to Grok's free tier to come up with chat summaries for the UI.
+
+To change that, you need to set a custom ""small model"" in the settings.",claim,fact: sends prompts to Grok by default,hn:47460525
+"I use this. I run it in a sandbox[0]. I run it inside Emacs vterm so it's really quick for me to jump back and forth between this and magit, which I use to review what it's done.
+
+I really should look into more ""native"" Emacs options as I find using vterm a bit of a clunky hack. But I'm just not that excited about this stuff right now. I use it because I'm lazy, that's all. Right now I'm actually getting into woodwork.
+
+[0] https://blog.gpkb.org/posts/ai-agent-sandbox/",experience,runs it in a sandbox inside Emacs,hn:47460525
+isn't this the one with default-on need code change to turn off telemetry?,question,asks about telemetry,hn:47460525
+"What would be the advantage using this over say VSCode with Copilot or Roo Code? I need to make some time to compare, but just curious if others have a good insight on things.",question,asks advantage over Copilot/Roo,hn:47460525
+OpenX is becoming a bit like that hindu symbol associated with well being..,skip,joke,hn:47460525
+If I wanted to switch from Claude Code to this - what openai model is comparable to opus 4.6? And is it the same speed or slower/faster? Thank you!,question,asks which OpenAI model compares to Opus,hn:47460525
+"If you have to post something like this line already loser the plot
+
+I only boot my windows 11 gaming machine for drm games that don’t work with proton. Otherwise it’s hot garbage",skip,"reply, off-topic",hn:47460525
+"opencode stands out as one of the few agents with a proper client server architecture that allows something like openchambers great vscode extension so its possible to seamlessly switch between tui, vscode, webapp, desktop app. i think there is hardly a usable alternative for most coding agent usecases (assuming agents from model providers are a no go, they cannot be allowed to own the tools AND the models). But its also far from perfect: the webui is secretly served from their servers instead of locally for no reason. worse the fallback route gets also sent to their servers so any unknown request to opencode api ends up being sent to opencode servers potentially leaking data. the security defaults are horrific, its impossible to use it safely outside a controlled container. it will just serve your whole hard drive via rest endpoint and not constrain to project folders. the share feature uploading your conversations to their servers is also so weirdly communicated and implemented that it leaves a bad taste. I dont think this will become much better until the agent ecosystem is more modular and less monolith, acp, a2a and mcp need to become good enough so tools, prompts, skills, subagent setups and workflow engines and UIs are completely swappable and the agent core has to only focus on the essentials like runtime and glue architecture. i really hope we dont see all of these grow into full agent oses with artificial lock in effects and big effort buy in.",claim,architecture and security claims about OpenCode,hn:47460525
+Can anyone clarify how this compares with Aider?,question,asks how it compares with Aider,hn:47460525
+I've used it but recently moved back to plain claude code. We use claude at the company and weirdly the experience has become less and less productive using opencode. I'm a bit sad about it as it was the first experience that really clicked and got great results out of. I'm actually curious if Anthropic knows which client is used and if they negatively influence the experience on purpose. It's very difficult to prove because nothing about this is exact science.,experience,moved back to Claude Code from OpenCode,hn:47460525
+"OpenCode works awesome for me. The BigPickle model is all I want. I do not throw some large work at the agent that requires lot of reasoning, thinking or decision making. It's my role to chop the work down to bite-size and ask the fantastic BigPickle to just do the damn coding or bit of explaining. It works very well with interactive sessions with small tasks. Not giving something to work over night.
+
+I used Claude with paid subscription and codex as well and settled to OpenCode with free models.",experience,OpenCode with BigPickle works for them,hn:47460525
+I feel like Anthropic really need to fork this for Claude Code or something. The render bugs in Claude Code drive me nuts.,experience,Claude Code render bugs drive them nuts,hn:47460525
+"I'd love for all these tools to standardise on the structure of plugins / skills / commands / hooks etc., so I can swap between them to compare without feeling handicapped!",claim,wish for standardisation,hn:47460525
+"i've been using this as my primary harness for llama.cpp models, Claude, and Gemini for a few months now. the LSP integration is great. i also built a plugin to enable a very minimal OpenClaw alternative as a self modifying hook system over IPC as a plugin for OpenCode: https://github.com/khimaros/opencode-evolve -- and here's a deployment ready example making use of it which runs in an Incus container/VM: https://github.com/khimaros/persona",experience,"primary harness for months, built a plugin",hn:47460525
+"I wish they would add back support for anthropic max/pro plans via calling the claude cli in -p mode. As I understand thats still very much allowed usage of claude code cli (as you are still using claude cli as it was intended anyway and fixes the issue of cache hits which I believe were the primary reason anthropic sent them the c&d). I love the UX from OpenCode (I loved setting it up in web mode on my home server and code from the web browser vs doing claude code over ssh) but until I can use my pro/max subscription I can't go back, the API pricing is way too much for my third world country wallet.",experience,loved OpenCode web mode; can't go back without plan support,hn:47460525
+"I see it uses massive resources for TUI interfaces like 1GB+ of RAM.
+
+I wonder why did they use Typescript and not a more resource efficient language like C, C++, Rust, Zig?
+
+Since their code is generated by AI human preferences shouldn't matter much and AI is happy to work with any language.",claim,rhetorical question about TypeScript,hn:47460525
+I started my own fully containerized coding agent 100% in Go recently. Looking for testers: https://github.com/aduermael/herm,skip,self-promotion,hn:47460525
+The fact that I wasn’t able to link llama.cpp server locally without fuss kinda beats the whole open point. Open for proprietary APIs only?,experience,couldn't link llama.cpp locally,hn:47460525
+"Dax post on x:
+
+""we see occasional complaints about memory issues in opencode
+
+if you have this can you press ctrl+p and then ""Write heap snapshot""
+
+Upload here: https://romulus.warg-snake.ts.net/upload
+
+Original post:https://x.com/i/status/2035333823173447885",skip,relayed post,hn:47460525
+"I started with Codex, then switched to OpenCode, then switched to Codex.
+
+OpenCode just has more bugs, it's incredibly derivative so it doesn't really do anything else than Codex.
+
+The advantage of OpenCode is that it can use any underlying model, but that's a disadvantage because it breaks the native integration. If you use Opus + Claude Code, or Gpt-Codex + Codex App, you are using it the way it was designed to be used.
+
+If you don't actually use different models, or plan to switch, or somehow value vendor neutrality strategically, you are paying a large cost without much reward.
+
+This is in general a rule, vendor neutrality is often seen as a generic positive, but it is actually a tradeoff. If you just build on top of AWS for example, you make use of it's features and build much faster and simpler than if you use Terraform.",experience,switched Codex -> OpenCode -> Codex,hn:47460525
+"What I don't understand is that, if coding agents are making coding obsolete, why do these vibe coders not choose a language that doesn't set their users' compute resources on fire? Just vibe rust or golang for their cli tools, no one reviews code slop nowadays anyway /s.
+
+I do not understand the insistence on using JavaScript for command line tools. I don't use rust at all, but if I'm making a vibe coded cli I'm picking rust or golang. Not zig because coding agents can't handle the breaking changes. What better test of agentic coders' conviction in their belief in AI than to vibe a language they can't read.",claim,sarcastic argument about JS CLIs,hn:47460525
+"Interesting timing — I've been building on Cloudflare Workers 
+with edge-first constraints, and the resource footprint of most 
+AI coding tools is striking by comparison. A TypeScript agent 
+that uses 1GB+ RAM for a TUI feels like the wrong abstraction. 
+The edge computing model forces you to think differently about 
+state, memory, and execution — maybe that's where lighter 
+agentic tools will emerge.",claim,TUI using 1GB is wrong abstraction,hn:47460525
+"One thing that makes OpenCode stand out to me is the web UI. I host it on my rPi 4B, serving as my AI assistant and remote mobile access to my homelab.
+
+Since the homelab doesn't really have access to any risky data, I just gave OpenCode full Docker access and connect to it through Tailscale on my iPhone https://github.com/pprotas/homelab",experience,hosts OpenCode on rPi,hn:47460525
+"This replaced Aider for me a couple months back.
+
+I use it with Qwen 3.5 running locally when my daily limits run out on my other subscriptions.
+
+The harness is great. Local models are just slow enough that the subscription models are easier to use. For most of my tasks these days, the model's capability is sufficient; it is just not as snappy.",experience,"replaced Aider, uses with local Qwen",hn:47460525
+"OpenCode feels like the “open-source Copilot agent” moment the more control, hackability, and no black-box lock-in.",claim,open-source Copilot moment,hn:47460525
+"One thing I notice across all these coding agents is that none of them have a trust or reputation layer. If an agent generates code, merges a PR, or deploys something — there is no cross-tool way to verify whether that agent has a track record of reliable output. We treat every agent invocation as equally trustworthy. In a world where agents are increasingly calling other agents' tools via MCP, that seems like a gap. The agent running your code review has no way to know if the agent that wrote the code has ever produced working code before.",claim,agents lack a reputation layer,hn:47460525
+"Just remember, OpenCode is sending telemetry to their own servers, even when you're using your own locally hosted models. There are no environment variables, flags, or other configuration options to disable this behavior.¹
+
+At least you can easily turn off telemetry in Claude Code - just set CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC to 1.
+
+You can use Claude Code with llama.cpp and vLLM, too right out of the box with no additional software necessary, just point ANTHROPIC_BASE_URL at your inference server of choice, with any value in ANTHROPIC_API_KEY.
+
+Some people think that Anthropic could disable this at any time, but that's not really true - you can disable automatic updates and back up and reuse native Claude Code binaries, ensuring Anthropic cannot change your existing local Claude Code binary's behavior.
+
+With that said, I like the idea of an open source TUI agent that won't spy on me without my consent and no way to disable it much better than a closed source TUI agent that I can effectively neuter telemetry on, but sadly, OpenCode is not the former. It's just another piece of VC-funded spyware that's destined for enshittification.
+
+¹https://github.com/anomalyco/opencode/blob/4d7cbdcbef92bb696...",claim,facts about telemetry and config,hn:47460525
+"OpenCode is an awesome tool.
+
+Many folks from other tools are only getting exposed to the same functionality they got used to, but it offers much more than other harnesses, especially for remote coding.
+
+You can start a service via `opencode serve`, it can be accessed from anywhere and has great experience on mobile except a few bugs. It's a really good way to work with your agents remotely, goes really well with TailScale.
+
+The WebUI that they have can connect to multiple OpenCode backends at once, so you may use multiple VPS-es for various projects you have and control all of them from a single place.
+
+Lastly, there's a desktop app, but TBH I find it redundant when WebUI has everything needed.
+
+Make no mistakes though, it's not a perfect tool, my gripes with it:
+
+- There are random bugs with loading/restoring state of the session
+
+- Model/Provider selection switch across sessions/projects is often annoying
+
+- I had a bug making Sonnet/Opus unusable from mobile phone because phone's clock was 150ms ahead of laptop's (ID generation)
+
+- Sometimes agent get randomly stuck. It especially sucks for long/nested sessions
+
+- WebUI on laptop just completely forgot all the projects at 
+one day
+
+- `opencode serve` doesn't pick up new skills automatically, it needs to be restarted",experience,list of bugs they hit using OpenCode,hn:47460525
+easily the best one,skip,one-liner,hn:47460525
+Do they have any sandbox out of the box?,question,asks about sandboxing,hn:47460525
+"Things that make an an OpenCode fanboy
+1. OpenCode source code is even more awesome. I have learned so much from the way they have organized tools, agents, settings and prompts. 
+2. models.dev is an amazing free resource of LLM endpoints these guys have put together
+3. OpenCode Zen almost always has a FREE coding model that you can use for all kinds of work. I recently used the free tier to organize and rename all my documents.",experience,used free tier to organise documents,hn:47460525
+"I haven't been able to successfully get their CLI to reliably edit files when using local models, anybody else having the same problem?",question,"can't edit files with local models, asks if others see it (hard case)",hn:47460525
+"Anecdotal pros and one annoyance:
+
+- GH copilot API is a first class citizen with access to multiple providers’ models at a very good price with a pro plan
+- no terminal flicker 
+- it seems really good with subagents
+- I can’t see any terminal history inside my emacs vterm :(",experience,pros and annoyance from use,hn:47460525
+"Question: How do we use Agents to Schedule and Orchestrate Farming and Agricultural production, or Manufacturing assembly machines, or Train rail transportation, or mineral and energy deposit discovery and extraction or interplanetary terraforming and mining, or nuclear reactor modulation, or water desalination automation, or plutonium electric fuel cell production with a 24,000 year half-life radiation decay, or interplanetary colonization, or physics equation creation and solving for faster-than-light travel?
+
+- With love The Official Pink Eye #ThereIsNoOther",skip,spam,hn:47460525
+"I've been using opencode for a few months and really like it, both from a UX and a results perspective.
+
+It started getting increasingly flaky with Anthropic's API recently, so I switched back to Claude Code for a couple of days. Oh my, what a night and day difference. Tokens, MCP use, everything.
+
+For anyone reading at OpenAI, your support for OpenCode is the reason I now pay you 200 bucks a month instead.",experience,"OpenCode flaky, switched back to Claude Code",hn:47460525
+Use it with zed,skip,one-liner,hn:47460525

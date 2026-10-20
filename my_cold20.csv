@@ -1,0 +1,70 @@
+text,label,note
+"As a principal engineer I feel completely let down. I've spent decades building up and accumulating expert knowledge and now that has been massively devalued. Any idiot can now prompt their way to the same software. I feel depressed and very unmotivated and expect to retire soon. Talk about a rug pull!
+
+My experience is that people who weren't very good at writing software are the ones now ""most excited"" to ""create"" with a LLM.",claim,
+"A real-life scene that made me chuckle last weekend…
+
+“Oh shit, Hey Babe did you close my laptop?”
+
+My not-very-technical friend as we returned home from a Sunday afternoon trip to the park with the kids to find his Claude Code session had been thwarted.",experience,
+"I just had what you might probably describe as the opposite experience. I was sat at a very important all hands meeting by our senior tech leader with about 100 people or so .who was mandating an AI goal for every employee on workday, he basically says that “if we all do not learn to adapt to AI, we will all get left behind” , and he had presented how to utilise spec driven development. He opened up the room for Q&A at the end of the meeting. A lot of them had technical questions about the agentic framework itself but I had a philosophical one. I I felt uncomfortable asking him the question in the open, so I sent him a private note .
+
+The note read something like as follows : I don’t exactly agree with the framing that we will all get left behind if we all don’t learn to adapt to AI. More accurately, I see it this way. While the company definitely stands to gain from all the hyper increase in productivity by the use of said AI tools, I stand to pay a personal price and that personal price is this - I’m may very slowly stop exercising my critical thinking muscles because I am accustomed passing that to AI for everything and this will render me less employable, it is this personal price that I feel reluctant to pay. There has always been a delicate balance between an employer and employee. We learn new technologies on the job and we’re more employable for transferring that to other companies. This equation is now unbalanced. The company trapped more value, but there is skill erosion on my side . For instance, our team actually has to perform a Cassandra DB migration this year . Usually, I’d have to take a small textbook and read about the internals of CassandraDB, and maybe learn a guide on how to write Cassandra queries. What do I put in my resume now? That I vibe coded Cassandra migration? How employable is that? And I’m not sure if others felt the same way. But I definitely felt like the odd one out here for asking that question because everyone else in the meeting was on board with AI adoption.
+
+The leader did respond to me and he said that learning agentic AI actually will make me more employable. So there is a fundamental disagreement as to what constitutes skill. I think he just spoke past me. Oh well at least I tried.",claim,decided with Claude
+"50. Started coding at 7. I never stopped coding. In fact, the past decade saw heavy open source contribution, public speaking, etc.
+
+I love coding with agents. Claude Code now almost exclusively. The 20x max subscription is endless until you start writing custom multi-agent processes, and even then. Still takes quite a bit of effort to burn through.
+
+I get so much more done, and can be productive with languages/frameworks I'm not familiar with.
+
+To everybody worried that AI will kill jobs. There have been many points in the evolution of software dev where some new efficiency was predicted to kill off jobs. The opposite happens. Dev becomes more economical, and all of the places where dev was previously too expensive open up. Maybe this time won't work out that way, but history isn't on the side of that prediction.
+
+An experienced software dev can get multiples of efficiency out of AI coding tools compared to non-devs, and can use them in scaled projects, where non-devs are only going to compound a mess. Some of those non-devs will learn how to be more efficient and work with scaled projects. How? They'll learn to be devs.
+
+I'd be building several side projects for myself if I wasn't super busy with the primary work I'm doing. The AI tools take over the tedious work, and remove a lot of work that would just add mental load. Love it.",experience,
+"51 year old electrical engineer here, same thing! (minus the retiring part cause finances)
+
+It's given me the guts to be a solo-founder (for now). I",skip,
+"im 58 and Cluade has given me everything i wanted to do in my 20's and on, and that is coding, I have some programming skills and understand making software, but with claude, i am building much faster and it is crazy how do the stuff is,",experience,
+"In my opinion cramming invisible subagents are entirely wrong, models suffer information collapse as they will all tend to agree with each other and then produce complete garbage. Good for Anthropic though as that's metered token usage.
+
+Instead, orchestrate all agents visibly together, even when there is hierarchy. Messages should be auditable and topography can be carefully refined and tuned for the task at hand. Other tools are significantly better at being this layer (e.g. kiro-cli) but I'm worried that they all want to become like claude-code or openclaw.
+
+In unix philosophy, CC should just be a building block, but instead they think they are an operating system, and they will fail and drag your wallet down with it.",claim,
+"I've subscribed today to use Claude Cowork. Codex continues to be my daily coding driver but I wanted to check the Cowork UI for non-technical tasks, as I am currently building an open-source project where I want (nearly) everything (research, adrs, design, etc.) to be a file.
+
+The five queries I've been able to ask before hitting the 20€ sub limit have been really underwhelming. The research I asked for was not exhaustive and often off-topic.
+
+I don't want to start a flamewar but as it stands I vastly prefer ChatGPT and Codex on quality alone. I really want Anthropic and as many labs as possible to do well though.",experience,
+"Claude is great I really love it but keen to know will you ever have one plan and one history / context across all the different tools you have ? agents on cloud - platform console, cli, desktop(chat+code+cowork), claude.ai, chrome addons ? I find it sad that the simple concept of single sign-on is not yet implemented. The history of conversations is not across all conversations. the choice of model switch in between or automatically is not there. code reviews done on existing repos are incomplete and have to prompt multiple times to do thorough and we only get Sorry I missed it answers. Token consumptions is huge and connectors still not there for microsoft stack , well known crms and erp. and you need to oay seperatrlt for api versus platform versus others. there - I said it ;) Hoping the next version will be truly for developers .",claim,discussed after labelling: Claude said experience (one sentence of use among complaints)
+"I put together a quick audit to check for ""early landing"" messages[1] using jq, ripgrep, and the messages[2] flagged in the stop guard script.
+
+I have noticed a trend in these sessions asking more and more about calling it a day, ""it's getting late,"" and other phrases. I sort of assumed it was some kind of ""load shedding"" on Anthropic's side.
+
+My audit of 80 sessions was interesting. Sorry, I won't share details, but I recommend you do the same.
+
+[1] https://gist.github.com/karlbunch/d52b538e6838f232d0a7977e7f...
+
+[2] https://gist.github.com/benvanik/ee00bd1b6c9154d6545c63e06a3...",experience,
+I’ve noticed regression and it’s performance too,experience,
+Any plans to make some HackerRank Astra bench?,question,
+"As a Claude Pro user, one of the biggest problems I have with day to day use of Sonnet is running out of tokens, and having to wait several hours. Would this new deep thinking capability just hit this problem faster?",experience,
+False dichotomy. There is a happy medium where you can orchestrate the agent to give you the code you want even when the spec changes,claim,
+"I do find there are particular days where I seem to consistently get poor results, but in general this is not my experience. I’m very pleased with the output 80% of days.",experience,decided with Claude
+"Maybe not more professional widely distributed software, but personal software of limited scope and use has boomed around me: designers creating a tool for each new project, developers creating art software, super users asking for plugins or custom workflows…
+It is not unprecedented: HyperCard for example created a similar boom, of course on a smaller scale.",claim,
+"Yes, instead of reviewing 1,000 lines a day I now ""review"" 10,000 lines a day. My brain is not 10x faster, so either I spend 10x more time reviewing code, or I just opt to accept that AI is probably right based on the complexity of the problem. However I realize that if we just let the agents loose on the codebase, everything would speed up like 100x.
+
+Invariably once certain AI models in certain domains reach ""full automation"" quality this will happen, until now the human eyeball bottleneck is holding a leash on millions of tireless superhuman coders who have just a few narrow but egregious contextual awareness issues.",claim,
+"Fingers crossed for this to work well! Claude Code is pretty excellent.
+
+I’m actually legitimately surprised how good it is, since other coding agents I’ve used before have mostly been a letdown, which made me only use Claude in direct change prompting with Zed (“implement xyz here”, “rewrite this function with abc”, etc), so very hands-on.
+
+So I’ve went into trying out Claude Code rather pessimistically, and now I’m using it all the time! Sure, it ends up costing a bunch, but it’s easy to justify $15 for a prompting session if the end result is a mostly complete PR, done much faster.
+
+All that is to say - competition is good, fingers crossed for codex!",experience,
+how does it compare to cursor or copilot?,question,
+"Not sure why they used React for a CLI. The code in the repo feels like it was written by an LLM—too many inline comments. Interestingly, their agent's system prompt mentions removing inline comments https://github.com/openai/codex/blob/main/codex-cli/src/util....
+
+> - Remove all inline comments you added as much as possible, even if they look normal. Check using \`git diff\`. Inline comments must be generally avoided, unless active maintainers of the repo, after long careful study of the code and the issue, will still misinterpret the code without the comments.",claim,
