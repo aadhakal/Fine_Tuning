@@ -51,62 +51,84 @@ whether you hit them:
 
 ---
 
-## 1.
+## 1. Overall accuracy
 
-<!-- Your criterion. It must name a number. -->
-
-
+Overall accuracy on the held-out test split is at least **0.65**, on every
+one of the three seeds.
 
 **Why this target:**
 
-
+Always guessing `experience`, my biggest label, already gets about 46%, so
+anything near 0.50 would mean the model learned basically nothing. On the
+other end, when I labelled 18 comments on my own and compared them with a
+second labeller using the same rules, we only agreed 78% of the time. The
+model is learning from labels that are that consistent, so I can't really
+expect it to beat ~0.78. 0.65 is about halfway between the two, which is
+where I'd start calling it useful.
 
 ---
 
-## 2.
+## 2. F1 for `experience` and `claim`
 
-<!-- Your criterion. -->
-
-
+F1 is at least **0.60** for `experience` and at least **0.60** for `claim`,
+on every seed.
 
 **Why this target:**
 
-
+This is my hardest boundary. Two of my four disagreements during the cold
+labelling were experience vs. claim, and all 9 comments I had to flag for a
+second look were this same pair: comments that mention using a tool once and
+then argue a bigger point. So I expect most of the model's
+mistakes to be here too. I'm not setting it lower than 0.60 because these
+are my two big labels (around 100 comments each, so roughly 15 each in the
+test split), which means their scores shouldn't jump around too much
+between seeds.
 
 ---
 
-## 3.
+## 3. F1 for `question`
 
-<!-- Your criterion. -->
-
-
+F1 for `question` is at least **0.50** on every seed.
 
 **Why this target:**
 
-
+I only have 21 questions, so about 3 of them end up in the test split. With
+3 examples, one wrong prediction changes the F1 a lot, so this target has to
+be looser than the other two. I didn't go lower than 0.50 though, because
+questions are the easiest label to spot: most of them are short and ask
+something directly ("how does it compare to Aider?").
 
 ---
 
-## 4.
+## 4. Confidence
 
-<!-- Your criterion. -->
-
-
+On the test split, the model's most confident third of predictions is at
+least **15 percentage points** more accurate than its least confident third,
+on every seed.
 
 **Why this target:**
 
-
+If the confidence score doesn't separate right answers from wrong ones,
+it's useless for deciding which predictions to trust. I expect the
+confident predictions to be the short questions and the obvious personal
+stories, and the unsure ones to be the mixed comments I struggled with
+myself, so there should be a real gap. 15 points is a gap I'd actually
+notice, not just noise on a test set of ~33 comments.
 
 ---
 
-## 5.
+## 5. Consistency with the staff labels
 
-<!-- Your criterion. -->
-
-
+When I label the 30 staff posts in unit 6 using the staff taxonomy, I agree
+with the staff labels on at least **70%** of them (21 of 30).
 
 **Why this target:**
 
+Under my own rules I agreed with the other labeller 78% of the time, and
+those were rules I wrote. The staff taxonomy is someone else's, so I expect
+to do a bit worse applying it. 70% would show I can apply written rules
+consistently. If I land well below that, it's a sign my own 219 labels are
+less consistent than I think.
 
 
 ---
