@@ -39,140 +39,216 @@
 
 ## What This Does
 
-<!-- Your community, and what your classifier sorts posts into. Three or four
-     sentences. -->
-
-
+My community is Hacker News, specifically the top-level comments under
+threads about AI coding tools (Claude Code, Codex, Cursor, Copilot, OpenCode
+and so on). My classifier sorts each comment into one of three labels:
+`experience` (the writer reports their own use of a tool), `claim` (a
+statement about AI tools that isn't grounded in their own use), and
+`question` (the writer wants an answer). The idea is to separate people
+reporting what actually happened from people arguing about what AI is or
+will be, since those two get mixed together in every one of these threads.
 
 ---
 
 ## Label Taxonomy
 
-<!-- Each label: a one-sentence definition and two real examples from your
-     reading. Then your decision rule for the hardest boundary.
+### `experience`
 
-     The decision rule is worth a point on its own and it's the thing most
-     people leave out. Every taxonomy has a hardest boundary. Name yours. -->
-
-### `label_one`
-
-**Definition:**
+**Definition:** The comment is built around the writer's own use of a
+specific tool: something they did with it and what happened, or verdicts
+that clearly come from that use.
 
 **Example 1:**
->
+> Ok, just got documentation and fixed two bugs in my open source project.
+> $1.42. This thing is a game changer.
 
 **Example 2:**
->
+> I've been using Claude Code daily for months on a project with Elixir,
+> Rust, and Python in the same repo. It handles multi-language stuff
+> surprisingly well most of the time. The worst failure mode for me is when
+> it does a replace_all on a string that also appears inside a constant
+> definition -- ended up with GROQ_URL = GROQ_URL instead of the actual URL.
 
-### `label_two`
+### `claim`
 
-**Definition:**
+**Definition:** A statement about AI tools (an argument, prediction,
+complaint or fact) that isn't grounded in the writer's own described use.
 
 **Example 1:**
->
+> My bet: LLMs will never be creative and will never be reliable. It is a
+> matter of paradigm.
 
 **Example 2:**
->
+> Ai tooling is fantastic but not being able to version and control the
+> model into which you pump your dependant workflows is such a liability.
+
+### `question`
+
+**Definition:** The writer is asking the thread for information, and the
+comment would be pointless if nobody answered.
+
+**Example 1:**
+> What's the privacy like for Claude Code? Is it memorizing all the codebase?
+
+**Example 2:**
+> Is there a way to run the model locally? I'd rather not have to pay a
+> monthly fee, if possible.
 
 ### The hardest boundary
 
-**Which two labels:**
+**Which two labels:** `experience` and `claim`.
 
 **The decision rule I used every time:**
-<!-- e.g. "If the post names a specific checkable fact, it's `analysis`, even
-     if the tone is heated." -->
+Ask whether the comment is *built around* the writer's own use of a named
+tool. If it is, it's `experience`, even if it goes on to argue a bigger
+point. If the use is just a one-line lead-in before an argument, it's
+`claim`. When a comment is about half and half, the tie-breaker is whether
+they name a specific tool: "I tell AI exactly what to test" followed by
+opinions about AI in general is `claim`.
 
+Two smaller rules: a rhetorical question ("How employable is that?") is
+`claim`, not `question`. And a comment I couldn't label from its own text
+(cut off mid-sentence, or only makes sense next to the comment it replies
+to) was skipped, not forced into a label.
 
+I didn't start with this rule. I started with "any described use counts as
+`experience`," and changed it after comparing my cold labels with a second
+labeller (see The Dataset below).
 
 ---
 
 ## The Dataset
 
-<!-- Where you collected from, how you labelled, your counts, and three hard
-     cases. -->
+**Where the posts came from:** Top-level comments from 8 Hacker News threads
+about AI coding tools, collected with `collect_hn.py` through the public HN
+search API (no account or key needed). Threads: 47282777, 47660925,
+43163011, 46765460, 46542036, 50059523, 43708025, 47460525. I only took
+top-level comments, because a reply needs the comment it's replying to and
+the model never sees that. I capped it at 36 random comments per thread so
+no single thread or tool dominates, removed exact duplicates, and kept no
+usernames. That gave 287 comments. 68 were skipped (jokes, self-promotion,
+link-only posts, critiques of the linked article, and replies that don't
+make sense on their own), leaving 219.
 
-**Where the posts came from:**
-
-**How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
-Say so plainly — the disclosure is required, not penalised. -->
+**How I labelled them:** Claude pre-labelled all 287. Before looking at any
+of its labels, I labelled 20 of them cold. I agreed with Claude on 14 of
+the 18 I decided on my own (78%). Two of the four disagreements showed the
+same pattern: comments with one line of tool use followed by an argument. I
+consistently called those `claim` and Claude called them `experience`, so I
+rewrote the rule to match how I was actually labelling (the rule above).
+Claude then flagged 9 borderline comments under the new rule and I decided
+each one. Claude applied my final rules to the remaining 191, and I did
+**not** check those individually. The `note` column says which is which:
+`cold` (19, after skipping one), `pre-labelled, decided by me` (9),
+`pre-labelled` (191).
 
 **Counts per label:**
 
 | Label | Count | Share |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-| **Total** |  | 100% |
+| `experience` | 101 | 46% |
+| `claim` | 97 | 44% |
+| `question` | 21 | 10% |
+| **Total** | 219 | 100% |
 
 **Three hard cases**
 
-<!-- Any post that made you pause: what it was, which two labels it could have
-     been, and what you chose. These are worth more than the easy 190. -->
-
 **1.**
-> *The post:*
+> *The post:* A long story about a company all-hands where the leader said
+> everyone must adopt AI. The writer sent a private note arguing that AI
+> erodes their skills ("What do I put in my resume now? That I vibe coded
+> Cassandra migration?"). It opens with "I just had what you might probably
+> describe as the opposite experience."
 >
-> *Could have been:*
+> *Could have been:* `experience`, `claim` or `question`. It literally says
+> "experience" and it's full of questions.
 >
-> *I chose, because:*
+> *I chose, because:* `claim`. Nothing in the story involves using an AI
+> tool (it's a meeting and a note), and the questions are rhetorical. This
+> one taught me not to label by the word "experience".
 
 **2.**
-> *The post:*
+> *The post:* "Claude is great I really love it but keen to know will you
+> ever have one plan and one history across all the different tools…"
+> followed by a long list of complaints (no single sign-on, no shared
+> history, missing connectors), with one sentence about code reviews being
+> incomplete and having to prompt multiple times.
 >
-> *Could have been:*
+> *Could have been:* `experience` (that one sentence is first-hand use) or
+> `claim`.
 >
-> *I chose, because:*
+> *I chose, because:* `claim`. The one sentence of use is buried in eight
+> complaints. This is where Claude and I disagreed, and it's what made me
+> change the rule from "any use counts" to "built around use".
 
 **3.**
-> *The post:*
+> *The post:* "From my experience with playing with Claude Code vs Cline…
+> I don't want anything that doesn't let me set my own models. Deepseek is
+> about 1/20th of the price and only slightly behind Claude. Both have a
+> tendency to over engineer."
 >
-> *Could have been:*
+> *Could have been:* `experience` or `claim`. It's mostly verdicts and
+> never describes a specific task.
 >
-> *I chose, because:*
+> *I chose, because:* `experience`. The verdicts clearly come from their own
+> use of two named tools. I then went back and changed a similar comment
+> (verdicts about Opus 4.5 and data science code) from `claim` to
+> `experience` so the two would match.
 
 ---
 
 ## The Training Run
 
-<!-- Your starting model, your settings, and anything you changed and why. -->
+**Base model:** `distilbert-base-uncased`
 
-**Base model:**
+**Settings:** 3 epochs, learning rate 2e-5, batch size 16, seed 42. Trained
+on `mps` (Apple Silicon GPU), torch 2.14.1.
 
-**Settings:** <!-- epochs, learning rate, batch size, seed -->
+**Anything I changed from the defaults, and why:** `MAX_LENGTH` from 128 to
+256. I measured my comments with the model's tokenizer: at 128 tokens only
+71% of them are read in full, and at 256 it's 92%. A lot of my comments
+start with a story and only argue a point later (or the other way round),
+so cutting them at 128 would hide exactly the part my labels depend on.
 
-**Anything I changed from the defaults, and why:**
+**Split sizes:** 153 train / 33 val / 33 test.
 
-**Split sizes:** <!-- train / val / test, and per-label counts in the test
-split. If a label had fewer than about 8 in test, say so — it explains a lot
-of next unit's variance. -->
+| | train | val | test |
+|---|---|---|---|
+| `experience` | 71 | 15 | 15 |
+| `claim` | 67 | 15 | 15 |
+| `question` | 15 | 3 | 3 |
 
-
+`question` has only 3 examples in the test split, so its F1 will move a lot
+between seeds. Missing one question changes recall by 33 points.
 
 ---
 
 ## How I Used AI
 
-<!-- Two specific moments — what you asked, what came back, what you changed.
-
-     ⚠️ Plus disclosure of any pre-labelling. If you had a model pre-label a
-     batch and then read and corrected every one, say that. It's an allowed
-     workflow and disclosing it costs you nothing. Not disclosing it is the
-     problem. -->
-
 **Moment 1**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* For Claude to label the whole dataset for me.
+- *What came back:* It pre-labelled everything, but held back 20 comments
+  for me to label cold and then compared our answers.
+- *What I changed:* The comparison showed I was using a different rule than
+  the one written down (I only counted tool use if the comment was built
+  around it). I rewrote the experience/claim rule to match my judgment, and
+  Claude relabelled under my version.
 
 **Moment 2**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* Whether the model could read the whole comment
+  instead of just the start.
+- *What came back:* It measured my comments with the tokenizer: 71% fit in
+  128 tokens, 92% in 256, 99% in 512, and DistilBERT can't go past 512.
+- *What I changed:* I set `MAX_LENGTH = 256`, which covers almost all of my
+  comments without making training much slower.
 
-**Pre-labelling disclosure:**
+**Pre-labelling disclosure:** All labels started as Claude's pre-labels. I
+labelled 20 cold before seeing its labels (19 kept, 1 skipped), and
+decided 9 borderline comments myself. The other 191 are Claude's labels
+under my final rules, and I did not check them one by one. Claude also
+wrote `collect_hn.py` and picked the 8 threads after I chose the topic.
 
 <!-- ═══════════════════════ UNIT 6 — THE TEST ═══════════════════════
 
