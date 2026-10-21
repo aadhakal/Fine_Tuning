@@ -273,6 +273,19 @@ wrote `collect_hn.py` and picked the 8 threads after I chose the topic.
 <!-- Milestone 1 asks you to write this BEFORE seeing the trained numbers. A
      prediction made afterwards isn't one. -->
 
+I ran the baseline two ways: first with bare label names (0.545 accuracy),
+then with my definitions. This prediction is for the definitions run,
+written before running it.
+
+I expect it to land around **0.60**: better than bare names, but still well
+below my trained model. I think the definitions will help most with
+`claim`, which bare names only caught a third of the time, because "a
+statement that is not based on the writer's own use" tells the model much
+more than the word "claim" does. I expect it to still struggle on experience
+vs. claim, because my real rule (is the comment *built around* the use?) is
+about how much of a comment is first-hand, and a one-sentence definition
+can't carry that. My trained model should beat it most clearly there.
+
 **What the gap actually means:**
 <!-- If the baseline matched your trained model, your fine-tuning added
      nothing — and that is a real finding, not a failure. Say it plainly. -->
