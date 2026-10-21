@@ -329,29 +329,62 @@ word "question" was enough for the zero-shot model to find them.
 <!-- Five criteria across three seeds. The notebook's section 6 prints the
      spread table; the Target and Verdict columns are yours. -->
 
+All three runs on `mps` (Apple Silicon GPU), torch 2.14.1, `MAX_LENGTH`
+256, 33 test posts each (15 experience, 15 claim, 3 question).
+
 | Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
 |---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
+| 1. Overall accuracy | ≥ 0.65 | 0.758 | 0.727 | 0.758 | MET |
+| 2. F1 `experience` / `claim` | ≥ 0.60 each | 0.778 / 0.815 | 0.812 / 0.710 | 0.800 / 0.789 | MET |
+| 3. F1 `question` | ≥ 0.50 | 0.000 | 0.000 | 0.000 | MISSED |
+| 4. Confidence gap (most vs. least sure third) | ≥ 15 pts | 0 (0.727 vs 0.727) | 54.5 (1.000 vs 0.455) | 54.5 (1.000 vs 0.455) | MISSED |
+| 5. Agreement with staff labels | ≥ 70% | — | — | — | see Agreement Report |
+
+Accuracy moved only 3 points across the three seeds (0.727 to 0.758), so
+the overall number is stable. `claim` F1 moved the most (0.710 to 0.815).
 
 ### Confusion matrix
 
-<!-- ⚠️ TYPED AS A MARKDOWN TABLE. The notebook prints one ready to paste.
-     An image of a matrix earns nothing. -->
+Rows are what I labelled, columns are what the model guessed. The diagonal
+(top-left to bottom-right) is correct; every other cell is a mistake. For
+example, the `claim` row in seed 42 means: of 15 posts I labelled `claim`,
+the model called 4 of them `experience` and 11 of them `claim`.
 
-| true \ predicted |  |  |  |
+Seed 42 (the notebook's section 7 prints the first seed):
+
+| true \ predicted | experience | claim | question |
 |---|---|---|---|
-| **** |  |  |  |
-| **** |  |  |  |
-| **** |  |  |  |
+| **experience** | 14 | 1 | 0 |
+| **claim** | 4 | 11 | 0 |
+| **question** | 3 | 0 | 0 |
+
+Summed over all three seeds (99 test predictions), from
+`results_three_seeds_before.json`:
+
+| true \ predicted | experience | claim | question |
+|---|---|---|---|
+| **experience** | 37 | 8 | 0 |
+| **claim** | 8 | 37 | 0 |
+| **question** | 3 | 6 | 0 |
 
 **My biggest off-diagonal number, and what it means:**
 <!-- Not "the model made mistakes" — WHICH boundary it didn't learn, and which
      direction. "7 real analysis posts were called hot_take and only 3 went the
      other way" is a direction, not just an error rate. -->
+
+- **Seed 42 on its own:** the biggest mistake is 4 real `claim` posts called
+  `experience`, with only 1 going the other way. That looks like the model
+  leans toward `experience`.
+- **All three seeds added up:** the biggest off-diagonal number is 8, and
+  it's a tie: 8 real `claim` posts called `experience` and 8 real
+  `experience` posts called `claim`. Seed 2024 even went the
+  opposite way (5 `experience` called `claim`, 0 `claim` called
+  `experience`). So there's no lean. The model mixes up `experience` and
+  `claim` equally in both directions, which fits how many close calls I had
+  on that boundary while labelling.
+- **The one error that holds on every seed:** the model never predicted
+  `question`. All 9 test questions across the three seeds were called
+  `experience` or `claim`.
 
 
 
