@@ -262,12 +262,21 @@ wrote `collect_hn.py` and picked the 8 threads after I chose the topic.
 <!-- Both models on the same posts. `python baseline.py --trained results.json`
      prints this table for you. -->
 
+Baseline is `facebook/bart-large-mnli`, zero-shot, using my definitions from
+`label_definitions.txt`. Both columns are scored on the same 33 held-out
+posts (`test_split.csv`).
+
 | Measure | Baseline | Trained | Difference |
 |---|---|---|---|
-| Overall accuracy |  |  |  |
-| Macro F1 |  |  |  |
-| F1 — `label_one` |  |  |  |
-| F1 — `label_two` |  |  |  |
+| Overall accuracy | 0.455 | 0.758 | +0.303 |
+| Macro F1 | 0.208 | 0.531 | +0.323 |
+| F1 — `experience` | 0.000 | 0.778 | +0.778 |
+| F1 — `claim` | 0.625 | 0.815 | +0.190 |
+| F1 — `question` | 0.000 | 0.000 | +0.000 |
+
+I also ran the baseline with bare label names instead of definitions
+(`baseline_results_bare_names.json`): accuracy 0.545, macro F1 0.521, F1
+0.667 / 0.435 / 0.462 for experience / claim / question.
 
 **What I predicted before I looked:**
 <!-- Milestone 1 asks you to write this BEFORE seeing the trained numbers. A
@@ -289,6 +298,27 @@ can't carry that. My trained model should beat it most clearly there.
 **What the gap actually means:**
 <!-- If the baseline matched your trained model, your fine-tuning added
      nothing — and that is a real finding, not a failure. Say it plainly. -->
+
+My prediction was wrong. I expected my definitions to help the baseline
+reach about 0.60. Instead they made it worse: 0.455 with definitions against
+0.545 with bare names. With definitions it predicted `claim` for all 33
+posts, so 0.455 is just the share of `claim` in the test set. My `claim`
+definition starts with "a statement about AI tools", which is true of every
+comment in my dataset. The part that's supposed to rule things out ("not
+based on the writer's own use") is a negation, and the zero-shot model
+ignored it. So my definitions work for a person applying my rule, but not
+as a prompt.
+
+Fine-tuning clearly added something for experience vs. claim: +0.30
+accuracy over the definitions baseline and +0.21 over bare names, and
+experience went from 0.000 to 0.778. The trained model learned the
+boundary from examples that a one-sentence definition couldn't express.
+
+For `question`, fine-tuning added nothing. Both models score 0.000, and the
+bare-names baseline actually did better (0.462, it caught all 3 questions,
+though it also called 7 other posts questions). With only 15 training
+questions, my model learned to never predict that label, while the plain
+word "question" was enough for the zero-shot model to find them.
 
 
 
