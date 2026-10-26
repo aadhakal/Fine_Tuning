@@ -338,7 +338,7 @@ All three runs on `mps` (Apple Silicon GPU), torch 2.14.1, `MAX_LENGTH`
 | 2. F1 `experience` / `claim` | ≥ 0.60 each | 0.778 / 0.815 | 0.812 / 0.710 | 0.800 / 0.789 | MET |
 | 3. F1 `question` | ≥ 0.50 | 0.000 | 0.000 | 0.000 | MISSED |
 | 4. Confidence gap (most vs. least sure third) | ≥ 15 pts | 0 (0.727 vs 0.727) | 54.5 (1.000 vs 0.455) | 54.5 (1.000 vs 0.455) | MISSED |
-| 5. Agreement with staff labels | ≥ 70% | — | — | — | see Agreement Report |
+| 5. Agreement with staff labels | ≥ 70% | 30/30 (not seed-dependent) | — | — | MET (see caveat in Agreement Report) |
 
 Accuracy moved only 3 points across the three seeds (0.727 to 0.758), so
 the overall number is stable. `claim` F1 moved the most (0.710 to 0.815).
@@ -426,14 +426,25 @@ Summed over all three seeds (99 test predictions), from
      data/staff_taxonomy.md, not your own — so every argument below is made
      from those definitions and those decision rules. -->
 
-**Agreement rate:** ___ / 30 = ___%
+**Agreement rate:** 30 / 30 = 100%
 
 <!-- Nobody grades this number. A 60% who argues every disagreement from the
      stated rules beats a 95% who wrote "staff was right" nine times. Several
      of the 30 were chosen because they're genuinely ambiguous — you should be
      winning some of these. -->
 
+That's higher than staff said to expect (the 70s), so it needs a caveat.
+`data/staff_posts.csv` is sorted by label: posts 1–10 are all `analysis`,
+11–20 all `hot_take`, 21–30 all `reaction`. My labels came out in those same
+three blocks. I gave a reason for every post from the staff rules, but the
+order was a strong hint, so 100% overstates how well I'd do on shuffled
+posts. The more useful evidence is the 7 posts staff marked as HARD, below.
+
 **Disagreements**
+
+None. Instead, here are the 7 posts staff flagged as borderline. These are
+the ones where I could most easily have disagreed, so they're where my
+reading of the rules can actually be checked.
 
 <!-- Three lines each: the post, both labels, and who you think is right and
      why — grounded in the staff definitions you were both applying.
@@ -448,25 +459,102 @@ Summed over all three seeds (99 test predictions), from
      written rule two different ways on 30 posts, that is direct evidence about
      what you did across your own 200. -->
 
-**1.**
-> *The post:*
+**1. Post 14 (the closest call for me)**
+> *The post:* "Times are down about 3% since the shoe rules changed, so
+> obviously the shoes are the whole story and the sport has a problem."
 >
-> *Staff said / I said:*
+> *Staff said / I said:* `hot_take` / `hot_take`
 >
-> *My call, and why:*
+> *My call, and why:* This is the one I nearly called `analysis`, because
+> "since the shoe rules changed" and "so" sound like an argument. Rule 1
+> settles it: the 3% doesn't show that shoes are "the whole story". It's
+> decoration on a conclusion the writer already had, and "so obviously" is
+> doing the work. It's almost the same as the staff's own shoe example.
 >
-> *Which pile:*
+> *Which pile:* none (agreed), but the rule covered it only because rule 1
+> has a worked example this close.
 
-**2.**
-> *The post:*
+**2. Post 5**
+> *The post:* "Carbon plates aren't the whole story. My times dropped 2% in
+> the shoes and another 2% the following year in the same pair, when the only
+> thing that changed was going from 35 to 50 miles a week."
 >
-> *Staff said / I said:*
+> *Staff said / I said:* `analysis` / `analysis`
 >
-> *My call, and why:*
+> *My call, and why:* The first sentence reads like a hot take, but the
+> second does the arguing: two comparable numbers with only mileage changed.
+> The fact carries the conclusion (rule 1). The opposite case from post 14.
+
+**3. Post 10**
+> *The post:* "Three of us ran the same session on the same day, different
+> shoes, within 10 seconds of each other over 5 miles. I'm not saying shoes
+> do nothing, but whatever they do was smaller than the noise between three
+> people."
 >
-> *Which pile:*
+> *Staff said / I said:* `analysis` / `analysis`
+>
+> *My call, and why:* Tiny sample, but the conclusion is limited to exactly
+> what the observation shows. A weak fact that carries the argument is still
+> `analysis`; rule 1 is about whether the fact does work, not how strong it is.
+
+**4. Post 19**
+> *The post:* "Nobody actually enjoys the long run. They enjoy having done
+> it, which is a completely different thing, and the sport would be more
+> honest if it said so."
+>
+> *Staff said / I said:* `hot_take` / `hot_take`
+>
+> *My call, and why:* It sounds personal and reflective, almost `reaction`,
+> but it's a claim about everyone, not a report of the writer's own run. Rule
+> 2: about the world, not the writer.
+
+**5. Post 20**
+> *The post:* "Every injury thread on this forum is the same injury and the
+> same three replies."
+>
+> *Staff said / I said:* `hot_take` / `hot_take`
+>
+> *My call, and why:* Could be checked in principle, but no count or example
+> is given, so it's asserted, not shown. Checkable isn't enough; the fact has
+> to actually be there.
+
+**6. Post 28**
+> *The post:* "Third DNF this year. I don't really want to talk about it,
+> just wanted to put it somewhere."
+>
+> *Staff said / I said:* `reaction` / `reaction`
+>
+> *My call, and why:* "Third this year" is a countable fact, but nothing is
+> argued from it. It's the writer reporting how they feel. Rule 3 only makes
+> something `analysis` when a fact is load-bearing.
+
+**7. Post 29**
+> *The post:* "Just realised the shoes I set every PB in this year are the
+> ones I bought by accident in the wrong size."
+>
+> *Staff said / I said:* `reaction` / `reaction`
+>
+> *My call, and why:* Could be a wry hot take about shoe hype, but it reports
+> the writer's own realisation, right now, without arguing that the size
+> caused the PBs. Rule 2.
 
 **What the pattern in my disagreements tells me:**
+
+I don't think 30/30 tells me as much as it looks like. The posts were sorted
+by label, and the staff rules come with worked examples very close to the
+hard cases (post 14 is nearly their own shoe example). My own
+experience/claim rule had neither of those, and it was still changing while
+I labelled. My cold 20 only agreed with a second labeller 78% of the time.
+
+What I can take from it is smaller: when a rule is written clearly with
+examples, I can follow it. That applies to the 28 labels I decided myself.
+The other 191 were applied by Claude under my rules and I didn't check them
+one by one, so this check doesn't tell me much about those.
+
+For my diagnosis, that means I can't rule out labelling as a cause of the
+experience/claim confusion. It's probably partly a hard boundary, since the
+model gets it wrong equally in both directions, but if labels are part of
+it, the 191 unchecked rows are where I'd look first.
 
 
 
