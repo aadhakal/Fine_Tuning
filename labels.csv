@@ -837,3 +837,44 @@ Do they have any sandbox out of the box?,question,pre-labelled
 It started getting increasingly flaky with Anthropic's API recently, so I switched back to Claude Code for a couple of days. Oh my, what a night and day difference. Tokens, MCP use, everything.
 
 For anyone reading at OpenAI, your support for OpenCode is the reason I now pay you 200 bucks a month instead.",experience,pre-labelled
+Does Gemini CLI require API access?,question,"pre-labelled, checked"
+"Are there any LLMs that offer ZSH plugins that integrate with command history, previous command outputs, system clipboard etc to assist writing the next command? Stuff like gemini/copilot CLI don't feel particularly useful to me. I'm not gonna type ""?? print last 30 lines of this file""",question,"pre-labelled, checked"
+I couldn't find any mentions of whether they train their models on your source code. May be someone was able to?,question,"pre-labelled, checked"
+Whether any CLI interactions are used to train the model or no ?,question,"pre-labelled, checked"
+"does it share code with google? or rather, if you use it, does it become likely someone else will get the same code if they tried to reproduce your product?",question,"pre-labelled, checked"
+Why would someone use this over aider?,question,"pre-labelled, checked"
+"This is all very cool, but I hate to be the ""look at the shiny lights"" guy...
+
+How did they do that pretty ""GEMINI"" gradient in the terminal? is that a thing we can do nowadays? It doesn't seem to be some blocky gradient where each character is a different color. It's a true gradient.
+
+(yes I'm aware this is likely a total clone of claude code, but still am curious about the gradient)",question,"pre-labelled, checked"
+"Is there any way to run this inside a docker container? When I tried, it barfed trying to run `xdg-open`. And I don't see any auth-related options in the `--help` output.",question,"pre-labelled, checked"
+"How does this compare to OpenCode and OAI's Codex? Those two are also free, they work with any LLM.
+
+https://github.com/opencode-ai/opencode",question,"pre-labelled, checked"
+"What models are supported, can we add custom models? I’m struggling to add Kimi K2 to cursor and surf.",question,"pre-labelled, checked"
+Is there any way to move the chat window to the primary side bar? Having two side bars open takes up a lot of space. Not sure why this pattern persists in these VScode forks.,question,"pre-labelled, checked"
+"Is there a way to use your Claude Max plan? I checked my token usage (ccusage) if I wasn't on a plan, and last month it would have been over $2000. This constraint prevents me from realistically considering alternatives to Claude Code.",question,"pre-labelled, checked"
+Can it be used to develop Unity3d games?,question,"pre-labelled, checked"
+I'm a little confused about how pricing works here. What is an 'agentic interaction' and how does that translate to dollars? And how does this work with models that are differently priced???,question,"pre-labelled, checked"
+"How does it compare to Claude Code? Can't that do this sort of thinking ahead and writing specifically? It may need some prompting to do the specifically writing specifically though.
+
+I feel like this might be nicer as an MCP and I bring my own AI assistant to it.",question,"pre-labelled, checked"
+"I know Cursor seems to work best using Anthropic’s models, is this similar or does it use a model from Amazon?",question,"pre-labelled, checked"
+It seems that it doesn't work with WSL 2 yet. Any plans to support it?,question,"pre-labelled, checked"
+"does this have any carveouts for CDK or other aws services? I've found that sonnet sometimes struggles to know what params to use, while amazon Q despite being on paper a worse model, can. It seems this uses sonnet, but are there any adjustments?",question,"pre-labelled, checked"
+"Is model choice a core design consideration. Or will Kiro not let developers chose the underlying model?
+
+What if I want to set preferences for the underlying LLM for different usage scenarios? For example, for a quick and snappy understanding of a single file id want to use a fast model that doesn't cost me an arm and a leg. Recent research on preference-aligned LLM routing here: https://arxiv.org/abs/2506.16655",question,"pre-labelled, checked"
+"Im.not a dev so i dont use these vs code forks...
+
+How is one fork different from cursor or kiro or something else?
+
+Arent these like what i assume skinning chromium or something more ?",question,"pre-labelled, checked"
+"Is there a good chart somewhere, to compare all the current AI coding CLIs / IDEs / extensions with one another?",question,"pre-labelled, checked"
+"Does anyone have experience with using this or another agent on local files? No company I know of will approve this for their owned repositories.
+
+What about Gitlab instead of GitHub, is there an equivalent to cursor 1.0 product?",question,"pre-labelled, checked"
+"They show a Devin style slack app[0] in the video but there's not mention of it anywhere else. Does anyone have it installed?
+
+0 - https://x.com/thisritchie/status/1930598413587959827",question,"pre-labelled, checked"
