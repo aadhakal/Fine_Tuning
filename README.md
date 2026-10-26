@@ -604,24 +604,82 @@ it, the 191 unchecked rows are where I'd look first.
 
 ## The Improvement
 
-**What I changed:**
+**What I changed:** Two changes, one at a time, each compared against the
+run before it.
 
-**Which diagnosis pointed at it:**
+1. **Added 23 questions** from three launch threads (Gemini CLI, Kiro,
+   Cursor 1.0), taking `question` from 21 to 44 examples (242 rows total).
+   Everything else the same. Saved as `results_three_seeds_after.json`.
+2. **Trained for 10 epochs instead of 3**, on the same 242 rows. That's the
+   only change from step 1. Saved as `results_three_seeds_after_epochs.json`.
+
+**Which diagnosis pointed at it:** Step 1 came from my criterion 3 diagnosis
+(too few questions: 15 in training, never predicted). When that didn't
+work, step 2 came from my criterion 4 diagnosis: the model's confidence was
+about 0.47 against 0.33 for guessing, so it was barely trained. With ~169
+training posts and a batch of 16, 3 epochs is only about 33 small update
+steps.
 
 ### Run Log — After
 
+Both runs use 242 rows, so the test split is 37 posts per seed (15
+experience, 15 claim, 7 question). That's a different test set from the
+"before" run (33 posts), so the comparison isn't exactly like-for-like.
+
+**Step 1: +23 questions, 3 epochs**
+
 | Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
 |---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
+| 1. Overall accuracy | ≥ 0.65 | 0.568 | 0.703 | 0.676 | MISSED |
+| 2. F1 `experience` / `claim` | ≥ 0.60 each | 0.667 / 0.560 | 0.824 / 0.727 | 0.800 / 0.714 | MISSED |
+| 3. F1 `question` | ≥ 0.50 | 0.000 | 0.000 | 0.000 | MISSED |
+| 4. Confidence gap | ≥ 15 pts | 50.0 | 66.7 | 58.3 | MET (but confidence still ~0.46 vs ~0.42) |
+| 5. Agreement with staff | ≥ 70% | 30/30 | — | — | MET (unchanged) |
+
+**Step 2: +23 questions, 10 epochs**
+
+| Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
+|---|---|---|---|---|---|
+| 1. Overall accuracy | ≥ 0.65 | 0.811 | 0.838 | 0.892 | MET |
+| 2. F1 `experience` / `claim` | ≥ 0.60 each | 0.774 / 0.828 | 0.839 / 0.800 | 0.867 / 0.867 | MET |
+| 3. F1 `question` | ≥ 0.50 | 0.857 | 0.923 | 1.000 | MET |
+| 4. Confidence gap | ≥ 15 pts | 25.0 | 25.0 | 16.7 | MET |
+| 5. Agreement with staff | ≥ 70% | 30/30 | — | — | MET (unchanged) |
+
+Confusion matrix for step 2, summed over the three seeds (111 predictions):
+
+| true \ predicted | experience | claim | question |
+|---|---|---|---|
+| **experience** | 38 | 6 | 1 |
+| **claim** | 8 | 37 | 0 |
+| **question** | 1 | 1 | 19 |
 
 **Did it help, and how do I know:**
 
 <!-- If it didn't, say so. Relabelling that didn't help is a genuinely
      interesting result and earns full credit. -->
+
+Step 1 didn't help. The model still never predicted `question` on any seed,
+even with twice as many training questions. Accuracy actually dropped, but
+mostly because the test set now had 7 questions instead of 3 and it got all
+of them wrong. On experience/claim alone it was about the same as before
+(21–26 of 30 right, against 24–25 before). So my criterion 3 diagnosis was
+incomplete: the number of questions wasn't the main problem.
+
+Step 2 did help. `question` went from 0.000 to 0.857–1.000 on all three
+seeds, and all five criteria are now met. Confidence also became meaningful:
+about 0.80 when right and 0.70 when wrong, compared with 0.47 and 0.45
+before. So the real bottleneck was how much the model trained, which is
+what the confidence numbers were pointing at.
+
+Two checks on whether to trust this:
+- **It didn't just learn question marks.** 34 of my `experience` and
+  `claim` posts also contain "?", roughly 15 of them landed in test across
+  the three seeds, and only 1 was called `question`.
+- **Almost all of the gain is `question`.** Experience/claim errors went
+  from 16 (before, summed over seeds) to 14. My hardest boundary barely
+  moved; the overall accuracy is higher because `question` turned out to
+  be an easy label once the model actually learned it.
 
 
 
@@ -631,11 +689,34 @@ it, the 191 unchecked rows are where I'd look first.
 
 <!-- For each criterion still missed: what you'd do, and why you stopped. -->
 
+After step 2 no criterion is missed, but some things are still weak:
 
+- **Criterion 4 only just passes on seed 2024** (16.7 against a target of
+  15). With 12 predictions per third, one post either way would flip it, so
+  I wouldn't call it solid.
+- **Experience vs. claim hasn't improved** (16 errors before, 14 after),
+  and the errors still go both ways. The next thing I'd try is checking the
+  191 labels Claude applied under my rules, because I can't rule out
+  labelling as part of this. I stopped because the brief asks for one fix
+  at a time and I'd already used two runs.
+- **The new questions all come from three launch threads**, and most test
+  questions are now from those threads. The model might be partly
+  recognising launch-thread style ("does it support X?") rather than
+  questions in general. I'd test it on questions from ordinary discussion
+  threads before trusting the 0.86–1.00.
+- **I only tried 10 epochs.** I didn't tune it further, because picking the
+  setting that scores best on the test set would be tuning on the test set.
 
 **The gap between what I meant my labels to capture and what the model
 learned:**
 <!-- Two sentences. Your confusion matrix is the evidence. -->
+
+I meant `experience` vs. `claim` to capture whether a comment is built
+around the writer's own use of a tool, but the model still mixes them up in
+both directions (6 experience called claim, 8 claim called experience, over
+three seeds), so it hasn't fully learned that "how much of the comment is
+about use" judgment. It probably leans on surface signs like "I" and tool
+names, which show up in both labels.
 
 
 
