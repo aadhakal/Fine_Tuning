@@ -397,11 +397,11 @@ Summed over all three seeds (99 test predictions), from
 
 | # | Criterion | Target | Verdict | How I decided |
 |---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
-| 4 |  |  |  |  |
-| 5 |  |  |  |  |
+| 1 | Overall accuracy | ≥ 0.65 every seed | MET | 0.758 / 0.727 / 0.758, lowest is 0.727 |
+| 2 | F1 `experience` and `claim` | ≥ 0.60 each, every seed | MET | lowest `experience` 0.778, lowest `claim` 0.710 (seed 7) |
+| 3 | F1 `question` | ≥ 0.50 every seed | MISSED | 0.000 on all three seeds |
+| 4 | Confidence gap | ≥ 15 points every seed | MISSED | 54.5 on seeds 7 and 2024, but 0 on seed 42 |
+| 5 | Agreement with staff | ≥ 70% | MET | 30/30, with the caveats in the Agreement Report |
 
 **Diagnoses**
 
@@ -413,6 +413,48 @@ Summed over all three seeds (99 test predictions), from
      ⚠️ Use your agreement report as evidence. It is the only instrument you
      have that can tell a LABELLING problem from a MODEL problem, and this
      section is graded on whether you used it that way. -->
+
+**Criterion 3 (`question` F1): too few examples.**
+
+The model never predicted `question` once: 0 out of 99 test predictions
+across the three seeds. It only had 15 training questions against about 70
+each of the other two labels, so ignoring the label cost it almost nothing.
+I don't think the task itself is the problem, because the zero-shot
+baseline with bare label names caught all 3 test questions without any
+training. Questions are easy to recognise; my model just didn't see enough
+of them.
+
+Could it be my labelling instead? The agreement report can't answer this
+one, because the staff taxonomy has no `question` label. My own cold
+labelling is the only evidence I have: one of my four disagreements there
+was experience vs. question (a comment that reports a problem and then asks
+about it). So a few of my questions are borderline, but that can't explain
+a label being predicted zero times. The count is the main cause.
+
+**Criterion 4 (confidence gap): the model is barely confident about
+anything, so the gap is mostly noise.**
+
+Two seeds show a big gap (54.5 points) and seed 42 shows none, so on its
+face the criterion is close. But the average confidence tells a different
+story: across all three seeds it's about 0.47 when right and 0.44–0.47 when
+wrong, and pure guessing between three labels would be 0.33. The model's
+probabilities are almost flat, so ranking predictions into thirds is
+sorting tiny differences, and with only 11 predictions per third one seed
+can easily come out tied. I'd call this a model that hasn't been trained
+enough on this much data (3 epochs, 153 examples) to have meaningful
+confidence, not a labelling problem. It probably also feeds criterion 3:
+when every label scores close to a third, `question` never wins.
+
+**What the agreement report rules in and out.**
+
+The two criteria I met (1 and 2) are about the experience/claim boundary,
+and the misses are about `question` and confidence. The agreement report
+says I follow a clearly written rule well (30/30, though the sorted file
+makes that weaker than it looks). It speaks to my own 28 labels, not the
+191 Claude applied, so I can't rule out labelling as part of the
+experience/claim confusion. But neither miss is mainly a labelling
+problem: one is a count problem and the other is a measurement on a model
+that's barely confident.
 
 
 
